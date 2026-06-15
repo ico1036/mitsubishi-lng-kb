@@ -1,0 +1,829 @@
+{
+  "nodes": [
+    {
+      "id": "mitsubishi-corporation",
+      "label": "Mitsubishi Corporation",
+      "type": "company",
+      "category": "Integrated trading & investment company / 종합상사",
+      "country": "Japan",
+      "description": "Japanese integrated trading and investment company; long-running LNG value-chain builder.",
+      "degree": 12
+    },
+    {
+      "id": "energy-power-solution-group",
+      "label": "MC Energy & Power Solution Group",
+      "type": "company",
+      "category": "Energy business group",
+      "country": "Japan",
+      "description": "Mitsubishi Corporation group overseeing LNG, natural gas, power, trading and energy transition businesses.",
+      "degree": 1
+    },
+    {
+      "id": "diamond-global-energy",
+      "label": "Diamond Global Energy / Diamond Gas International",
+      "type": "company",
+      "category": "LNG marketing & trading",
+      "country": "Singapore",
+      "description": "Singapore-based Mitsubishi subsidiary handling LNG marketing, sales optimization and short-term trading for US/Canada LNG.",
+      "degree": 3
+    },
+    {
+      "id": "mc-energies",
+      "label": "MC Energies Corporation",
+      "type": "company",
+      "category": "US energy platform",
+      "country": "United States",
+      "description": "Mitsubishi's US energy business platform centered on upstream natural gas and energy value chain expansion.",
+      "degree": 4
+    },
+    {
+      "id": "lng-canada",
+      "label": "LNG Canada Project",
+      "type": "company",
+      "category": "Liquefaction / LNG export project",
+      "country": "Canada",
+      "description": "Canada's first large-scale LNG project in Kitimat, BC; 14 Mtpa production capacity.",
+      "degree": 3
+    },
+    {
+      "id": "diamond-lng-canada",
+      "label": "Diamond LNG Canada Ltd.",
+      "type": "company",
+      "category": "Project investment / offtake vehicle",
+      "country": "Canada",
+      "description": "Mitsubishi subsidiary invested in LNG Canada; procures feed gas and offtakes LNG.",
+      "degree": 2
+    },
+    {
+      "id": "montney-shale",
+      "label": "Montney Shale Gas Development",
+      "type": "other",
+      "category": "Upstream gas resource",
+      "country": "Canada",
+      "description": "Upstream shale gas resource base in British Columbia feeding Mitsubishi's Canadian natural gas value chain.",
+      "degree": 1
+    },
+    {
+      "id": "coastal-gaslink",
+      "label": "Coastal GasLink Pipeline",
+      "type": "company",
+      "category": "Pipeline / midstream",
+      "country": "Canada",
+      "description": "Pipeline route connecting inland gas resources to British Columbia's west-coast LNG export terminal.",
+      "degree": 2
+    },
+    {
+      "id": "cameron-lng",
+      "label": "Cameron LNG",
+      "type": "company",
+      "category": "Liquefaction / tolling",
+      "country": "United States",
+      "description": "US LNG liquefaction project; Mitsubishi holds tolling capacity equivalent to one liquefaction train.",
+      "degree": 2
+    },
+    {
+      "id": "aethon",
+      "label": "Aethon / Haynesville Shale Gas Assets",
+      "type": "company",
+      "category": "Upstream shale gas",
+      "country": "United States",
+      "description": "Haynesville shale gas assets in Texas and Louisiana; acquisition agreed by Mitsubishi in 2026.",
+      "degree": 3
+    },
+    {
+      "id": "cima-energy",
+      "label": "CIMA Energy",
+      "type": "company",
+      "category": "Midstream marketing & logistics",
+      "country": "United States",
+      "description": "Houston-based midstream marketing/logistics platform cited by Mitsubishi as part of its North American energy platform.",
+      "degree": 1
+    },
+    {
+      "id": "diamond-generating",
+      "label": "Diamond Generating Corporation",
+      "type": "company",
+      "category": "Power generation / trading",
+      "country": "United States",
+      "description": "Mitsubishi power business in the Americas, including power generation and trading.",
+      "degree": 1
+    },
+    {
+      "id": "petronas",
+      "label": "PETRONAS",
+      "type": "company",
+      "category": "National oil & gas company",
+      "country": "Malaysia",
+      "description": "Malaysia's national oil and gas company; long-term LNG partner of Mitsubishi.",
+      "degree": 1
+    },
+    {
+      "id": "petronas-lng-complex",
+      "label": "PETRONAS LNG Complex Bintulu",
+      "type": "company",
+      "category": "LNG production complex",
+      "country": "Malaysia",
+      "description": "Large LNG complex in Bintulu, Sarawak; combined 29.3 MTPA capacity across ventures.",
+      "degree": 3
+    },
+    {
+      "id": "mlng-dua",
+      "label": "MLNG Dua",
+      "type": "company",
+      "category": "LNG joint venture",
+      "country": "Malaysia",
+      "description": "Malaysia LNG Dua; Mitsubishi extended 10% equity participation.",
+      "degree": 2
+    },
+    {
+      "id": "mlng-tiga",
+      "label": "MLNG Tiga",
+      "type": "company",
+      "category": "LNG joint venture",
+      "country": "Malaysia",
+      "description": "Malaysia LNG Tiga; Mitsubishi reinvested 10% equity participation.",
+      "degree": 2
+    },
+    {
+      "id": "brunei-lng",
+      "label": "Brunei LNG",
+      "type": "company",
+      "category": "Historic LNG project",
+      "country": "Brunei",
+      "description": "One of the world's longest-operating LNG plants; first shipment to Japan in 1972.",
+      "degree": 4
+    },
+    {
+      "id": "shell",
+      "label": "Shell",
+      "type": "company",
+      "category": "Energy major / partner",
+      "country": "United Kingdom",
+      "description": "Partner in Brunei LNG development after discovering offshore Brunei gas fields.",
+      "degree": 1
+    },
+    {
+      "id": "brunei-government",
+      "label": "Brunei Government",
+      "type": "government",
+      "category": "State partner",
+      "country": "Brunei",
+      "description": "Supported and invested in Brunei LNG establishment.",
+      "degree": 1
+    },
+    {
+      "id": "donggi-senoro-lng",
+      "label": "Donggi-Senoro LNG",
+      "type": "company",
+      "category": "LNG project / Asian-operated",
+      "country": "Indonesia",
+      "description": "LNG project jointly owned by Mitsubishi, KOGAS, Pertamina and Medco; MC operator/largest stake.",
+      "degree": 4
+    },
+    {
+      "id": "kogas",
+      "label": "Korea Gas Corporation (KOGAS)",
+      "type": "company",
+      "category": "Korean gas importer / project partner",
+      "country": "South Korea",
+      "description": "Korean gas corporation; partner in Donggi-Senoro LNG and key Korean LNG importer.",
+      "degree": 1
+    },
+    {
+      "id": "pertamina",
+      "label": "Pertamina",
+      "type": "company",
+      "category": "National oil & gas company",
+      "country": "Indonesia",
+      "description": "Indonesia's state-owned oil and gas company; partner in Donggi-Senoro LNG.",
+      "degree": 1
+    },
+    {
+      "id": "medco",
+      "label": "Medco Energi",
+      "type": "company",
+      "category": "Energy company",
+      "country": "Indonesia",
+      "description": "Indonesian energy company; partner in Donggi-Senoro LNG.",
+      "degree": 1
+    },
+    {
+      "id": "oman-lng",
+      "label": "Oman LNG",
+      "type": "company",
+      "category": "Alternative LNG supply / chokepoint-adjacent",
+      "country": "Oman",
+      "description": "Oman LNG became relevant to Korea as a Hormuz-risk alternative supply-chain partner.",
+      "degree": 2
+    },
+    {
+      "id": "motie-korea",
+      "label": "Korea Ministry of Trade, Industry and Energy",
+      "type": "government",
+      "category": "Energy security policymaker",
+      "country": "South Korea",
+      "description": "Korean ministry discussing LNG/energy supply-chain cooperation with Oman.",
+      "degree": 1
+    },
+    {
+      "id": "strait-hormuz",
+      "label": "Strait of Hormuz",
+      "type": "other",
+      "category": "Energy chokepoint",
+      "country": "International waters",
+      "description": "Narrow maritime chokepoint between Iran and Oman; major route for oil and LNG.",
+      "degree": 2
+    },
+    {
+      "id": "korean-manufacturing",
+      "label": "Korean Manufacturing Base",
+      "type": "other",
+      "category": "Energy-intensive demand / vulnerable end-user",
+      "country": "South Korea",
+      "description": "Korean manufacturing sectors exposed to LNG, oil, naphtha, helium and ammonia supply shocks.",
+      "degree": 4
+    },
+    {
+      "id": "berkshire-hathaway",
+      "label": "Berkshire Hathaway",
+      "type": "investor",
+      "category": "Long-term investor",
+      "country": "United States",
+      "description": "Warren Buffett-led investment company holding long-term stakes in Japanese trading houses.",
+      "degree": 1
+    },
+    {
+      "id": "japanese-trading-houses",
+      "label": "Five Japanese Trading Houses",
+      "type": "other",
+      "category": "Peer group / investment theme",
+      "country": "Japan",
+      "description": "ITOCHU, Marubeni, Mitsubishi, Mitsui and Sumitomo as Berkshire's Japanese investment basket.",
+      "degree": 2
+    },
+    {
+      "id": "ai-data-centers",
+      "label": "AI / Data Center Power Demand",
+      "type": "other",
+      "category": "Emerging electricity demand",
+      "country": "Global",
+      "description": "Growing electricity demand driver cited in Mitsubishi energy strategy and LNG Canada context.",
+      "degree": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "mitsubishi-corporation",
+      "target": "energy-power-solution-group",
+      "type": "subsidiary",
+      "description": "Energy & Power Solution Group is Mitsubishi Corporation's energy business organization.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "diamond-global-energy",
+      "type": "subsidiary",
+      "description": "Diamond Global Energy/Diamond Gas International is a Mitsubishi LNG marketing and trading subsidiary in Singapore.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "mc-energies",
+      "type": "subsidiary",
+      "description": "MC Energies oversees Mitsubishi's US energy business.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "diamond-lng-canada",
+      "type": "subsidiary",
+      "description": "Mitsubishi participates in LNG Canada through Diamond LNG Canada Ltd.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "diamond-lng-canada",
+      "target": "lng-canada",
+      "type": "investment",
+      "description": "Diamond LNG Canada invested in and participates in LNG Canada; it also procures feed gas and offtakes LNG.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "montney-shale",
+      "target": "coastal-gaslink",
+      "type": "supply_chain",
+      "description": "Canadian upstream gas is transported roughly 670 km by pipeline to the west coast for liquefaction.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/explore/project-stories/lng-canada/"
+    },
+    {
+      "source": "coastal-gaslink",
+      "target": "lng-canada",
+      "type": "supply_chain",
+      "description": "Pipeline delivers gas to the LNG Canada export terminal/liquefaction project.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/explore/project-stories/lng-canada/"
+    },
+    {
+      "source": "lng-canada",
+      "target": "diamond-global-energy",
+      "type": "supply_chain",
+      "description": "Mitsubishi supplies LNG Canada offtake to Asian customers through Diamond Gas International.",
+      "year": "2025",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2025/20250701001.html"
+    },
+    {
+      "source": "diamond-global-energy",
+      "target": "korean-manufacturing",
+      "type": "customer",
+      "description": "DGI markets LNG to customers across Asia; Korea is a key Asian LNG demand market, though this edge is contextual rather than a named contract in the source.",
+      "year": "",
+      "confidence": "low",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2025/20250701001.html"
+    },
+    {
+      "source": "mc-energies",
+      "target": "aethon",
+      "type": "acquisition",
+      "description": "Mitsubishi agreed to acquire Aethon/Haynesville shale gas assets for about USD 5.2bn.",
+      "year": "2026",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+    },
+    {
+      "source": "aethon",
+      "target": "cameron-lng",
+      "type": "supply_chain",
+      "description": "Aethon gas has favorable access to multiple LNG export terminals including Cameron LNG.",
+      "year": "2026",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "cameron-lng",
+      "type": "investment",
+      "description": "Mitsubishi owns tolling capacity equivalent to one liquefaction train at Cameron LNG.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "mc-energies",
+      "target": "cima-energy",
+      "type": "subsidiary",
+      "description": "CIMA Energy is cited as part of Mitsubishi's North American midstream marketing and logistics platform.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+    },
+    {
+      "source": "mc-energies",
+      "target": "diamond-generating",
+      "type": "subsidiary",
+      "description": "Diamond Generating Corporation is part of Mitsubishi's North American power platform.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+    },
+    {
+      "source": "aethon",
+      "target": "ai-data-centers",
+      "type": "supply_chain",
+      "description": "Mitsubishi says the Aethon investment can accelerate an integrated US chain from upstream gas to power generation, data center development, chemicals and related businesses.",
+      "year": "2026",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+    },
+    {
+      "source": "petronas",
+      "target": "mitsubishi-corporation",
+      "type": "partnership",
+      "description": "PETRONAS and Mitsubishi have a 46-year LNG partnership.",
+      "year": "2024",
+      "confidence": "high",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "mlng-dua",
+      "type": "investment",
+      "description": "Mitsubishi extended its 10% equity shareholding in MLNG Dua for the next decade.",
+      "year": "2024",
+      "confidence": "high",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "mlng-tiga",
+      "type": "investment",
+      "description": "Mitsubishi reinvested a 10% equity shareholding in MLNG Tiga.",
+      "year": "2024",
+      "confidence": "high",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "mlng-dua",
+      "target": "petronas-lng-complex",
+      "type": "membership",
+      "description": "MLNG Dua is one of the ventures in the PETRONAS LNG Complex.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "mlng-tiga",
+      "target": "petronas-lng-complex",
+      "type": "membership",
+      "description": "MLNG Tiga is one of the ventures in the PETRONAS LNG Complex.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "petronas-lng-complex",
+      "target": "korean-manufacturing",
+      "type": "customer",
+      "description": "PETRONAS LNG Complex supplies diverse public/private customers in Japan; broader Asian industrial demand relevance is contextual.",
+      "year": "",
+      "confidence": "low",
+      "evidence": "https://www.petronas.com/media/media-releases/mitsubishi-corporation-strengthens-partnership-petronas-reinforcing-confidence"
+    },
+    {
+      "source": "shell",
+      "target": "brunei-lng",
+      "type": "partnership",
+      "description": "Mitsubishi partnered with Shell and Brunei government support to establish Brunei LNG.",
+      "year": "1969",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/project/brunei-lng/"
+    },
+    {
+      "source": "brunei-government",
+      "target": "brunei-lng",
+      "type": "government_funding",
+      "description": "Brunei government supported and invested in Brunei LNG establishment.",
+      "year": "1969",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/project/brunei-lng/"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "brunei-lng",
+      "type": "partnership",
+      "description": "Mitsubishi participated in Brunei LNG, building a 50-year value chain covering upstream, liquefaction, sales and transportation.",
+      "year": "1969",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/project/brunei-lng/"
+    },
+    {
+      "source": "brunei-lng",
+      "target": "mitsubishi-corporation",
+      "type": "supply_chain",
+      "description": "First LNG shipment from Brunei arrived in Japan in 1972 and stable supply continued.",
+      "year": "1972",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/project/brunei-lng/"
+    },
+    {
+      "source": "mitsubishi-corporation",
+      "target": "donggi-senoro-lng",
+      "type": "investment",
+      "description": "Donggi-Senoro LNG is jointly owned by Mitsubishi, KOGAS, Pertamina and Medco; MC is operator/largest stake.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "kogas",
+      "target": "donggi-senoro-lng",
+      "type": "investment",
+      "description": "KOGAS is a joint owner of Donggi-Senoro LNG.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "pertamina",
+      "target": "donggi-senoro-lng",
+      "type": "investment",
+      "description": "Pertamina is a joint owner of Donggi-Senoro LNG.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "medco",
+      "target": "donggi-senoro-lng",
+      "type": "investment",
+      "description": "Medco is a joint owner of Donggi-Senoro LNG.",
+      "year": "",
+      "confidence": "high",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/about/business-group/energy-power-solution/"
+    },
+    {
+      "source": "strait-hormuz",
+      "target": "korean-manufacturing",
+      "type": "supply_chain",
+      "description": "KIET reports Hormuz risk can raise Korean manufacturing costs through energy and linked industrial materials.",
+      "year": "2026",
+      "confidence": "high",
+      "evidence": "https://www.kiet.re.kr/research/issueView?issue_no=846"
+    },
+    {
+      "source": "strait-hormuz",
+      "target": "oman-lng",
+      "type": "supply_chain",
+      "description": "Oman is outside/adjacent to Hormuz and considered a geographic diversification option for Korea.",
+      "year": "2026",
+      "confidence": "medium",
+      "evidence": "https://www.yna.co.kr/view/AKR20260423113300003"
+    },
+    {
+      "source": "motie-korea",
+      "target": "oman-lng",
+      "type": "partnership",
+      "description": "Korea's MOTIE discussed LNG and energy supply-chain cooperation with Oman LNG leadership.",
+      "year": "2026",
+      "confidence": "high",
+      "evidence": "https://www.yna.co.kr/view/AKR20260423113300003"
+    },
+    {
+      "source": "berkshire-hathaway",
+      "target": "japanese-trading-houses",
+      "type": "investment",
+      "description": "Berkshire holds long-term stakes in five Japanese trading houses: ITOCHU, Marubeni, Mitsubishi, Mitsui and Sumitomo.",
+      "year": "2023",
+      "confidence": "high",
+      "evidence": "https://www.berkshirehathaway.com/news/jun1923.pdf"
+    },
+    {
+      "source": "japanese-trading-houses",
+      "target": "mitsubishi-corporation",
+      "type": "membership",
+      "description": "Mitsubishi Corporation is one of the five Japanese trading houses in Berkshire's Japanese investment basket.",
+      "year": "2023",
+      "confidence": "high",
+      "evidence": "https://www.berkshirehathaway.com/2024ar/2024ar.pdf"
+    },
+    {
+      "source": "ai-data-centers",
+      "target": "korean-manufacturing",
+      "type": "customer",
+      "description": "AI/data center power demand is a growing driver that connects energy security to industrial competitiveness; Korea relevance is strategic inference.",
+      "year": "",
+      "confidence": "medium",
+      "evidence": "https://www.mitsubishicorp.com/jp/en/news/release/2025/20250701001.html"
+    }
+  ],
+  "meta": {
+    "title": "Mitsubishi LNG Value Chain — Ontology Network Map",
+    "generated": "2026-06-02",
+    "nodeCount": 30,
+    "edgeCount": 35,
+    "isolated": 0,
+    "byType": {
+      "company": 22,
+      "other": 5,
+      "government": 2,
+      "investor": 1
+    },
+    "byRel": {
+      "subsidiary": 6,
+      "investment": 9,
+      "supply_chain": 8,
+      "customer": 3,
+      "acquisition": 1,
+      "partnership": 4,
+      "membership": 3,
+      "government_funding": 1
+    },
+    "byConf": {
+      "high": 31,
+      "low": 2,
+      "medium": 2
+    },
+    "countries": [
+      "United States",
+      "Canada",
+      "Malaysia",
+      "Indonesia",
+      "Japan",
+      "South Korea",
+      "Brunei",
+      "Global",
+      "International waters",
+      "Oman",
+      "Singapore",
+      "United Kingdom"
+    ],
+    "countryCounts": {
+      "United States": 6,
+      "Canada": 4,
+      "Malaysia": 4,
+      "Indonesia": 3,
+      "Japan": 3,
+      "South Korea": 3,
+      "Brunei": 2,
+      "Global": 1,
+      "International waters": 1,
+      "Oman": 1,
+      "Singapore": 1,
+      "United Kingdom": 1
+    },
+    "topNodes": [
+      {
+        "label": "Mitsubishi Corporation",
+        "type": "company",
+        "country": "Japan",
+        "degree": 12
+      },
+      {
+        "label": "MC Energies Corporation",
+        "type": "company",
+        "country": "United States",
+        "degree": 4
+      },
+      {
+        "label": "Brunei LNG",
+        "type": "company",
+        "country": "Brunei",
+        "degree": 4
+      },
+      {
+        "label": "Donggi-Senoro LNG",
+        "type": "company",
+        "country": "Indonesia",
+        "degree": 4
+      },
+      {
+        "label": "Korean Manufacturing Base",
+        "type": "other",
+        "country": "South Korea",
+        "degree": 4
+      },
+      {
+        "label": "Diamond Global Energy / Diamond Gas International",
+        "type": "company",
+        "country": "Singapore",
+        "degree": 3
+      },
+      {
+        "label": "LNG Canada Project",
+        "type": "company",
+        "country": "Canada",
+        "degree": 3
+      },
+      {
+        "label": "Aethon / Haynesville Shale Gas Assets",
+        "type": "company",
+        "country": "United States",
+        "degree": 3
+      },
+      {
+        "label": "PETRONAS LNG Complex Bintulu",
+        "type": "company",
+        "country": "Malaysia",
+        "degree": 3
+      },
+      {
+        "label": "Diamond LNG Canada Ltd.",
+        "type": "company",
+        "country": "Canada",
+        "degree": 2
+      },
+      {
+        "label": "Coastal GasLink Pipeline",
+        "type": "company",
+        "country": "Canada",
+        "degree": 2
+      },
+      {
+        "label": "Cameron LNG",
+        "type": "company",
+        "country": "United States",
+        "degree": 2
+      },
+      {
+        "label": "MLNG Dua",
+        "type": "company",
+        "country": "Malaysia",
+        "degree": 2
+      },
+      {
+        "label": "MLNG Tiga",
+        "type": "company",
+        "country": "Malaysia",
+        "degree": 2
+      },
+      {
+        "label": "Oman LNG",
+        "type": "company",
+        "country": "Oman",
+        "degree": 2
+      },
+      {
+        "label": "Strait of Hormuz",
+        "type": "other",
+        "country": "International waters",
+        "degree": 2
+      },
+      {
+        "label": "Five Japanese Trading Houses",
+        "type": "other",
+        "country": "Japan",
+        "degree": 2
+      },
+      {
+        "label": "AI / Data Center Power Demand",
+        "type": "other",
+        "country": "Global",
+        "degree": 2
+      },
+      {
+        "label": "MC Energy & Power Solution Group",
+        "type": "company",
+        "country": "Japan",
+        "degree": 1
+      },
+      {
+        "label": "Montney Shale Gas Development",
+        "type": "other",
+        "country": "Canada",
+        "degree": 1
+      },
+      {
+        "label": "CIMA Energy",
+        "type": "company",
+        "country": "United States",
+        "degree": 1
+      },
+      {
+        "label": "Diamond Generating Corporation",
+        "type": "company",
+        "country": "United States",
+        "degree": 1
+      },
+      {
+        "label": "PETRONAS",
+        "type": "company",
+        "country": "Malaysia",
+        "degree": 1
+      },
+      {
+        "label": "Shell",
+        "type": "company",
+        "country": "United Kingdom",
+        "degree": 1
+      },
+      {
+        "label": "Brunei Government",
+        "type": "government",
+        "country": "Brunei",
+        "degree": 1
+      },
+      {
+        "label": "Korea Gas Corporation (KOGAS)",
+        "type": "company",
+        "country": "South Korea",
+        "degree": 1
+      },
+      {
+        "label": "Pertamina",
+        "type": "company",
+        "country": "Indonesia",
+        "degree": 1
+      },
+      {
+        "label": "Medco Energi",
+        "type": "company",
+        "country": "Indonesia",
+        "degree": 1
+      },
+      {
+        "label": "Korea Ministry of Trade, Industry and Energy",
+        "type": "government",
+        "country": "South Korea",
+        "degree": 1
+      },
+      {
+        "label": "Berkshire Hathaway",
+        "type": "investor",
+        "country": "United States",
+        "degree": 1
+      }
+    ]
+  }
+}

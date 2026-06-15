@@ -1,0 +1,362 @@
+{
+  "summary": "Deep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+  "agentCount": 106,
+  "logs": [
+    "Q: 미쓰비시 상사(Mitsubishi Corporation)의 LNG/에너지 글로벌 밸류체인 구축 사례를 심층 분석한다. 다음을 포함: (1) 미쓰…",
+    "Decomposed into 5 angles: broad/primary — LNG value chain timeline, investor/Buffett rationale, business model / sogo shosha economics, Korea comparison / implications, recent geopolitics / 2025 Hormuz risk",
+    "investor/Buffett rationale: 6 results",
+    "recent geopolitics / 2025 Hormuz risk: 6 results",
+    "business model / sogo shosha economics: 6 results",
+    "business model / sogo shosha economics: 3 novel (3 filtered)",
+    "broad/primary — LNG value chain timeline: 6 results",
+    "broad/primary — LNG value chain timeline: 4 novel (2 filtered)",
+    "Korea comparison / implications: 6 results",
+    "Korea comparison / implications: 5 novel (1 filtered)",
+    "Fetched 24 sources → 83 claims → verifying top 25",
+    "\"Mitsubishi holds specific equity stakes across the…\": 3-0 ✓",
+    "\"Mitsubishi Corporation has built a 50+ year LNG va…\": 3-0 ✓",
+    "\"Cameron LNG in Louisiana (12 MTPA capacity) began …\": 3-0 ✓",
+    "\"The LNG Canada project reached a final investment …\": 3-0 ✓",
+    "\"Mitsubishi Corporation participates in the LNG Can…\": 3-0 ✓",
+    "\"Mitsubishi Corporation operates the Cameron LNG pr…\": 0-3 ✗",
+    "\"Through the Montney/LNG Canada project Mitsubishi …\": 3-0 ✓",
+    "\"Mitsubishi Corporation's Natural Gas Group spans t…\": 3-0 ✓",
+    "\"Mitsubishi Corporation's natural gas business bega…\": 3-0 ✓",
+    "\"As of July 2025, MC held equity in 13 operating LN…\": 3-0 ✓",
+    "\"MC's specific upstream/liquefaction equity stakes …\": 3-0 ✓",
+    "\"SK E&S has built a vertically integrated LNG value…\": 3-0 ✓",
+    "\"MC's integrated value-chain strategy (Management S…\": 3-0 ✓",
+    "\"POSCO International is reviewing a plan to import …\": 3-0 ✓",
+    "\"POSCO International is participating in the Alaska…\": 3-0 ✓",
+    "\"Mitsubishi Corporation responded to Middle East en…\": 3-0 ✓",
+    "\"93 percent of Japan's oil imports transit through …\": 3-0 ✓",
+    "\"Japan depends on the Middle East for over 95% of i…\": 1-2 ✗",
+    "\"Japan has diversified its LNG sourcing away from t…\": 3-0 ✓",
+    "\"Japan relies on imports for more than 85 percent o…\": 3-0 ✓",
+    "\"Approximately 35% of global seaborne crude oil and…\": 3-0 ✓",
+    "\"During the June 2025 Iran-Israel conflict, U.S. fo…\": 3-0 ✓",
+    "\"A halt in Qatari LNG cargoes (caused by Hormuz clo…\": 3-0 ✓",
+    "\"Following the 2026 Middle East conflict and closur…\": 3-0 ✓",
+    "\"Japanese utilities and trading houses pursue portf…\": 3-0 ✓",
+    "Verify done: 25 claims → 23 confirmed, 2 killed"
+  ],
+  "result": {
+    "question": "미쓰비시 상사(Mitsubishi Corporation)의 LNG/에너지 글로벌 밸류체인 구축 사례를 심층 분석한다. 다음을 포함: (1) 미쓰비시 상사가 수십 년에 걸쳐 LNG 밸류체인(상류 가스전 지분, 액화 플랜트, LNG 운반선, 트레이딩, 하류 발전·터미널)을 어떻게 단계적으로 구축했는지 구체적 사례(브루나이 LNG, 호주 NWS, 사할린, 카타르, 미국 Cameron LNG 등)와 타임라인. (2) 워런 버핏/버크셔 해서웨이가 미쓰비시 등 일본 5대 종합상사(소고쇼샤) 지분을 매입하고 '영구 보유' 의사를 밝힌 배경, 보유 비중, 투자 논리. (3) 종합상사 모델이 어떻게 에너지 안보·밸류체인 통합으로 수익을 창출하는지 비즈니스 구조. (4) 한국의 에너지 산업(가스공사 KOGAS, SK E&S, GS, 포스코인터내셔널 등)과 비교했을 때 한국이 얻을 수 있는 함의와 시사점. (5) 2025년 이란-이스라엘 전쟁 및 호르무즈 해협 리스크로 인한 글로벌 에너지 수급 체인 disruption 상황에서 수직통합형 에너지 밸류체인 확보의 전략적 의미. 사실·수치·사례 중심으로 정보를 수집하고 리스팅한다.",
+    "summary": "미쓰비시 상사는 1969년 일본 최초의 알래스카산 LNG 수입(수입 대행) 참여를 출발점으로 50년 이상에 걸쳐 상류 가스전 지분, 액화 플랜트 투자, 운반, 트레이딩, 하류 발전·터미널을 아우르는 수직통합형 LNG 밸류체인을 단계적으로 구축했으며, 2025년 7월 기준 가동 중 13개 LNG 프로젝트(MidOcean 통한 간접 6개 추가) 지분과 연 14.90 MTPA 지분 생산량을 보유하고 2030년대 초 약 18 MTPA로 확대를 계획하고 있다. 핵심 사례로 브루나이 LNG(25%, 1972년부터), 호주 NWS(미쓰이와 50/50 MIMI로 16.67%), 사할린2(10%), 미국 Cameron LNG(NYK와의 JV 및 4 MTPA 톨링), LNG Canada(15%, 2018년 10월 FID, 2025년 6월 첫 선적)가 있다. 종합상사 모델은 상류 자원개발부터 액화·수송·판매까지 통합해 마진을 내재화하며, 2026년 1월 미쓰비시의 52억 달러 헤인스빌(Aethon) 인수처럼 중동 리스크 대응으로 미국 가스 상류로 이동하는 흐름을 보인다. 한국 측에서는 SK E&S가 바로사·다윈·프리포트·보령터미널·가스화력으로 이어지는 민간 최초의 통합 밸류체인을, 포스코인터내셔널이 알래스카 LNG(약 450억 달러, 20년간 연 100만 톤 도입 검토) 참여를 추진하며 일본 소고쇼샤 모델을 벤치마킹하고 있다. 다만 2025~2026년 이란-이스라엘 분쟁과 호르무즈 봉쇄 국면에서 IEEFA는 일본의 LNG 공급원 다변화조차 글로벌 가격 충격(JKM 급등)으로부터 완전히 보호하지 못한다고 지적하며, 수직통합·다변화의 한계와 전략적 의미를 동시에 보여준다. 주의: 버핏/버크셔의 일본 5대 상사 지분 매입·'영구 보유' 관련 검증 통과 주장이 본 클레임 세트에 없어 질문 (2)는 근거 미확보 상태다.",
+    "findings": [
+      {
+        "claim": "미쓰비시 상사는 1969년 일본 최초 알래스카 LNG 수입(수입 대행) 참여를 시작으로 50년 이상에 걸쳐 수입대행→액화플랜트 투자→상류 가스전 지분→수송→트레이딩으로 사업 영역을 단계적으로 확장하며 풀 LNG 밸류체인을 구축했다.",
+        "confidence": "high",
+        "sources": [
+          "https://journal.jogmec.go.jp/content/300799935.pdf",
+          "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf",
+          "https://www.mitsubishicorp.com/us/en/mca/bg/natural-gas-group/"
+        ],
+        "evidence": "JOGMEC(일본 정부계 자원기관) 1차 문헌이 동일 문구를 명시: 1969년 알래스카 첫 수입 참여 이후 50년간 수입대행→액화플랜트→상류→수송·트레이딩으로 확장. JERA·ConocoPhillips가 1969년 11월 'Polar Alaska' 탱커, Negishi 터미널, 미쓰비시 매수 대행 사실을 독립 확증. 미쓰비시 미국 천연가스그룹 페이지도 'energy value chain' 전반 활동을 명시. 질문 (1)·(3)의 핵심 골격.",
+        "vote": "merged: [0],[6],[7]"
+      },
+      {
+        "claim": "2024년 7월~2025년 7월 기준 미쓰비시는 가동 중 12~13개 LNG 프로젝트(브루나이·말레이시아·인도네시아·호주·오만·러시아·미국·캐나다) 지분을 보유하며, 2024년 4월 MidOcean Energy 전략적 투자로 간접 6개 추가; 지분 LNG 생산량은 12.95 MTPA(2024.7)→14.90 MTPA(2025.7), LNG Canada 가동 시 약 15 MTPA, 2030년대 초 약 18 MTPA로 확대 계획.",
+        "confidence": "high",
+        "sources": [
+          "https://journal.jogmec.go.jp/content/300799935.pdf",
+          "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf"
+        ],
+        "evidence": "두 JOGMEC 1차 PDF가 프로젝트 수·국가·MTPA 수치를 명명된 프로젝트 표와 함께 verbatim 제시(12개·12.95 MTPA@2024.7; 13개·14.90 MTPA@2025.7; MidOcean 간접 6개; 18 MTPA 2030년대 초). 두 시점 데이터가 내부 정합적. 타임라인·규모를 정량화하는 핵심 근거(질문 1).",
+        "vote": "merged: [0],[8]"
+      },
+      {
+        "claim": "미쓰비시의 구체적 상류·액화 지분: 브루나이 LNG 25%(브루나이정부 50%/Shell 25%, 1972년부터), 호주 North West Shelf는 미쓰이와 50/50 MIMI를 통해 16.67%, 사할린2 10%(Sakhalin Energy), 미국 Cameron LNG는 Japan LNG Investment(미쓰비시 70%/NYK 30%)로 16.6% + 별도 4 MTPA 액화 톨링(2019-2039, 20년).",
+        "confidence": "high",
+        "sources": [
+          "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf",
+          "https://journal.jogmec.go.jp/content/300799935.pdf"
+        ],
+        "evidence": "JOGMEC 프로젝트 지분 표가 각 수치를 verbatim 일치(브루나이 25%/1972, MIMI 50/50→16.67%, 사할린 10%, Cameron Japan LNG Investment 70/30→16.6% 및 4 MTPA 톨링). S&P Global이 Cameron 미쓰비시/NYK 지분과 20년 4 MTPA 톨링을 독립 확증. 질문 (1) 사례·타임라인의 핵심.",
+        "vote": "merged: [1],[9]"
+      },
+      {
+        "claim": "Cameron LNG(루이지애나, 12 MTPA, 3개 트레인)는 2020년 8월 상업운전을 완료했고, 미쓰비시는 NYK와의 JV 지분투자 외에 Cameron LNG, LLC와 4 MTPA 액화 톨링계약(2019-2039)을 보유해 wellhead-to-cargo 통제를 구현한다.",
+        "confidence": "high",
+        "sources": [
+          "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf"
+        ],
+        "evidence": "JOGMEC 1차 문헌: 2020년 8월 상업운전·12 MTPA·NYK JV 지분 + 4 MTPA 톨링. Sempra/McDermott 보도가 Train1(2019.8)·Train2(2020.3)·Train3(2020.8) 단계 가동 확증, '8월 상업운전'은 최종(전체) 가동 의미. 질문 (1) 미국 사례 + (3) 톨링 기반 통합 수익구조.",
+        "vote": "[2]"
+      },
+      {
+        "claim": "LNG Canada(브리티시컬럼비아 Kitimat)는 7 MTPA 트레인 2기로 총 14 MTPA 규모이며 2018년 10월 FID, 2025년 6월 첫 카고 선적. 미쓰비시는 15% JV 파트너(KOGAS 5% 공동투자)로 Montney 셰일가스 상류개발→액화→수출·판매(일본 및 동아시아)까지 캐나다 내 풀 밸류체인에 참여한다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.mitsubishicorp.com/jp/en/about/project/montney-shale-gas/",
+          "https://journal.jogmec.go.jp/content/300799935.pdf"
+        ],
+        "evidence": "미쓰비시 1차 프로젝트 페이지: 14 MTPA(7+7), Kitimat BC, 2018.10 FID, 상류(Montney, Ovintiv)→약 670km 파이프라인→액화→일본·동아시아 판매. LNG Canada 공식·Shell·NRCan이 독립 확증, 2025.6 첫 선적·2026.2까지 50카고. 질문 (1) 최신 사례 + (3) 통합구조.",
+        "vote": "merged: [3],[4],[5]"
+      },
+      {
+        "claim": "미쓰비시는 'Corporate Strategy 2027'(2025.4.3)로 가스전 개발→LNG 생산→AI 데이터센터용 가스화력까지 잇는 통합 밸류체인 전략을 추진하며, 전담 LNG 마케팅사 Diamond Gas International(2013 설립)을 운영한다. KOGAS는 여러 프로젝트의 공동투자 파트너로 등장(LNG Canada 5%, Donggi Senoro 25%, Oman LNG는 KOREA LNG 통한 참여).",
+        "confidence": "high",
+        "sources": [
+          "https://journal.jogmec.go.jp/content/300799935.pdf",
+          "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf",
+          "https://www.mitsubishicorp.com/jp/en/news/release/2025/20250403001.html"
+        ],
+        "evidence": "JOGMEC가 DGI 2013 설립과 통합 밸류체인, KOGAS 공동투자 지분(LNG Canada 5%, Sulawesi LNG Development 75/25, Oman LNG는 KOREA LNG 5.0%)을 verbatim 명시. AI/데이터센터·Corporate Strategy 2027은 미쓰비시 사이트로 확인. 검증자 주의: 'Management Strategy 2027'은 정확히는 'Corporate Strategy 2027'. 질문 (3)·(4)(한국 KOGAS 연결).",
+        "vote": "[10]"
+      },
+      {
+        "claim": "미쓰비시는 중동 에너지 리스크에 대응해 미국 LNG 상류로 이동, 2026년 1월 헤인스빌 분지 생산사 Aethon Energy를 약 52억 달러(부채 인수 23.3억 달러 별도)에 인수했다. 이는 일본 소고쇼샤/유틸리티의 북미 가스 공급 전환의 일부이며, 인근 Cameron LNG의 기존 톨링·액화 역량과 결합해 wellhead-to-cargo 수직통합을 강화한다.",
+        "confidence": "high",
+        "sources": [
+          "https://orfme.org/expert-speak/how-middle-east-turmoil-reverberates-through-japans-energy-system/",
+          "https://www.mitsubishicorp.com/jp/en/news/release/2026/20260116002.html"
+        ],
+        "evidence": "ORF Middle East가 미쓰비시 52억 달러 Aethon(헤인스빌) 인수를 중동 의존 축소를 위한 북미 가스 피벗 맥락으로 명시. Yahoo Finance·OilPrice·WorldOil(2026.1.16)·미쓰비시 보도자료가 ~2.1 Bcf/d 생산, 매도자 Ontario Teachers·RedBird, 2026.4-6월 종료 예정 확증. 질문 (5)(리스크 대응) + (3).",
+        "vote": "[14]"
+      },
+      {
+        "claim": "SK E&S는 상류(호주 바로사, 미국 우드포드, 인니 탕구)→미드스트림 액화(다윈 LNG, 프리포트 LNG 약 220만 톤/년)→LNG 터미널(보령 350만 톤/년)→전용 LNG 수송→하류 가스화력(광양·파주·여주)까지 잇는 한국 민간 최초의 수직통합 LNG 밸류체인을 구축했다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.skens.com/sk/content/view.do?cate=energy&m1=lngcondition"
+        ],
+        "evidence": "SK 1차 페이지 + KED Global·S&P Global·NS Energy 독립 확증. 바로사 37.5%(2026.1.27 첫 선적), 다윈 25%(2021, 3.9억 달러), 프리포트 220만 톤/년, 보령 350만 톤(2017~), 2019년 한국 첫 민간 전용 LNG 선단, 광양(2006)·파주(2017)·여주(2023). 질문 (4) 한국 비교의 핵심 사례.",
+        "vote": "[11]"
+      },
+      {
+        "claim": "포스코인터내셔널은 한국 기업 최초로 알래스카 LNG 프로젝트(약 450억 달러/₩64조, 북부 가스전→남부 Nikiski 항 1,300km 파이프라인) 참여를 추진, 2025년 Gastech(밀라노)에서 GlenFarne과 예비합의서에 서명하고 20년간 연 100만 톤 LNG 도입 방안을 검토 중 — 일본 소고쇼샤형 상류-도입 통합 포지션 구축 사례.",
+        "confidence": "high",
+        "sources": [
+          "https://newsmagazine.poscointl.com/?p=8620"
+        ],
+        "evidence": "포스코인터 1차 매거진 + Glenfarne 보도자료·Korea Herald·Businesswire·서울경제·MBC 확증: 약 450억 달러, 807마일(~1,300km) 파이프라인, GlenFarne CEO Brendan Duval 서명, 비구속 예비합의(파이프 강재 공급 + 20년 1 MTPA 오프테이크 검토). 질문 (4) 한국 시사점.",
+        "vote": "merged: [12],[13]"
+      },
+      {
+        "claim": "일본은 에너지 소비의 85% 이상을 수입에 의존하며 중동이 원유 수입의 94%(UAE 43%, 사우디 39%)를 공급하고, 원유 수입의 93%가 호르무즈 해협을 통과해 원유 측 chokepoint 취약성이 크다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.csis.org/analysis/what-are-implications-iran-conflict-japan"
+        ],
+        "evidence": "CSIS가 85%+ 수입의존, 중동 원유 94%(UAE 43%/사우디 39%), 호르무즈 통과 93%를 명시. S&P Global·Vortexa·Statista가 FY2024 중동 원유 의존 ~95.9% 등으로 보강. 질문 (5) 호르무즈 리스크의 정량적 토대.",
+        "vote": "merged: [15],[16]"
+      },
+      {
+        "claim": "일본은 LNG 공급원을 중동에서 다변화해 중동산 LNG 비중을 2013년 약 29%에서 2025년 약 11%로 낮췄다(호주 ~38%, 말레이시아 ~16%, 미국 ~10%, 러시아 ~9%). 따라서 가스의 호르무즈 노출은 원유(94%)보다 구조적으로 낮다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.csis.org/analysis/what-are-implications-iran-conflict-japan",
+          "https://ieefa.org/resources/japans-diversified-lng-procurement-strategy-cannot-fully-shield-it-global-price-spikes"
+        ],
+        "evidence": "CSIS가 29%(2013)→11%(2025) 명시, ORF가 ~11% 독립 확증. 공급원 구성(호주·말레이시아·미국·러시아 다수)이 중동을 소수 비중으로 만든다는 구조와 정합. 질문 (5) 다변화의 효과 측면.",
+        "vote": "[17]"
+      },
+      {
+        "claim": "호르무즈 해협은 글로벌 해상 원유의 약 35%, 글로벌 LNG의 약 20%가 통과하는 핵심 chokepoint이며, 카타르산 LNG 카고 중단 시 글로벌 LNG 공급의 약 20%가 사라져 유럽-아시아 경쟁이 재점화되고 가격 급등 압력이 발생한다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.washingtoninstitute.org/policy-analysis/how-iran-israel-conflict-affecting-gulf-energy-and-maritime-security",
+          "https://ieefa.org/resources/japans-diversified-lng-procurement-strategy-cannot-fully-shield-it-global-price-spikes"
+        ],
+        "evidence": "Washington Institute가 원유 35%·LNG 20% 명시. EIA('about one-fifth of global LNG')·IEA(2025 ~112 bcm, ~20%; 원유 ~15 mb/d ~34%)가 LNG 20% 확증. IGU: 카타르 단독 2024년 글로벌 LNG 18.8%. 질문 (5) disruption 규모.",
+        "vote": "merged: [18],[21]"
+      },
+      {
+        "claim": "2025년 6월 이란-이스라엘 분쟁 중 미군이 6월 21일 Fordow 등 이란 핵시설(Operation Midnight Hammer)을 폭격했고, 직후 유가는 5개월 최고치를 기록했다.",
+        "confidence": "high",
+        "sources": [
+          "https://www.washingtoninstitute.org/policy-analysis/how-iran-israel-conflict-affecting-gulf-energy-and-maritime-security"
+        ],
+        "evidence": "Washington Institute가 6/21 Fordow 폭격·유가 5개월 최고 명시. Wikipedia·Al Jazeera·NBC·CNBC('Oil hits five-month high', 6/23)가 B-2·GBU-57 사용과 가격 반응 확증. 질문 (5) 사건 타임라인.",
+        "vote": "[19]"
+      },
+      {
+        "claim": "2026년 중동 분쟁·호르무즈 봉쇄 국면에서 다카이치 정부는 일본 전체 LNG 수입의 6%만 호르무즈 통과·3주분 국내 재고 보유를 이유로 직접 영향에서 보호된다고 밝혔으나, IEEFA는 다변화가 글로벌 공급 충격발 가격 변동성(JKM 2배 급등, 2026.4부터 가계요금 +JPY15,000, 최대 GDP 3% 감소 가능)을 막지 못한다고 반박한다.",
+        "confidence": "high",
+        "sources": [
+          "https://ieefa.org/resources/japans-diversified-lng-procurement-strategy-cannot-fully-shield-it-global-price-spikes"
+        ],
+        "evidence": "IEEFA(2026.3 PDF)가 다카이치 정부의 6%·3주 재고 주장과 JKM 2배·요금 인상·GDP 영향을 verbatim 제시. 러시아-우크라이나 사례(2022.8 월간 수입액 ~JPY878억, 2021년 대비 4배)로 다변화의 가격충격 한계 실증. 질문 (5) 수직통합·다변화의 전략적 의미와 한계.",
+        "vote": "merged: [20],[22]"
+      }
+    ],
+    "caveats": "버핏/버크셔 해서웨이의 일본 5대 종합상사(미쓰비시 등) 지분 매입, 보유 비중, '영구 보유' 의사, 투자 논리(질문 2)에 대해서는 3표 적대적 검증을 통과한 클레임이 본 세트에 전혀 포함되지 않았다 — 이 부분은 본 합성에서 근거 미확보이며 별도 조사가 필요하다. 시간 민감성: 미쓰비시 지분 수치는 2024.7/2025.7 기준이고, Aethon 인수는 2026.4-6월 종료 예정(미완결), 바로사·LNG Canada·알래스카 LNG는 진행/검토 단계라 추가 변동 가능. 호르무즈 통과 비중은 출처에 따라 원유 25~35%, LNG ~20% 범위로 분모 정의에 따라 차이가 있으나 방향성은 일치. '2025 이란-이스라엘 전쟁' vs IEEFA의 '2026 분쟁/호르무즈 봉쇄' 간 시점 framing 불일치가 있어 사건이 2025년 발발 후 2026년까지 이어지는 것으로 해석됨. 미쓰비시·SK·포스코 일부 1차 출처는 자사 페이지이나 핵심 수치는 JOGMEC·S&P·EIA·IEA 등 독립 출처로 교차확증됨. 반증된 주장 2건(미쓰비시가 Cameron 시설을 '운영'한다 — 실제는 지분/톨링; 일본 원유 95%+·페르시아만 LNG 83% 호르무즈 통과 — 표결 분열)은 본문에서 제외.",
+    "openQuestions": [
+      "버핏/버크셔 해서웨이의 일본 5대 종합상사 지분 매입 시점·현재 보유 비중(예: 각 9%대로 확대)·'영구 보유' 발언 출처·투자 논리(저PBR/배당·자사주, 통합 밸류체인의 현금흐름 안정성)는 무엇이며 미쓰비시에 한정하면 어떤 수치인가? (질문 2 미해결)",
+      "한국 KOGAS의 자체 상류 가스전 지분(예: Oman LNG·LNG Canada 5%·Donggi Senoro 외) 규모와, 소고쇼샤 대비 한국 종합상사·공기업의 통합도 격차를 정량 비교하면?",
+      "GS그룹(GS에너지 등)의 LNG 밸류체인 포지션은 SK E&S·포스코인터 대비 어디에 위치하는가? (질문 4에서 GS는 별도 근거 미수집)",
+      "수직통합·상류 지분 확보가 실제 호르무즈/글로벌 가격 충격 시 한국 수입가격을 얼마나 헤지하는가 — IEEFA의 '다변화로도 가격충격 회피 불가' 논지가 한국 KOGAS 평균도입가에 주는 정량적 함의는?"
+    ],
+    "refuted": [
+      {
+        "claim": "Mitsubishi Corporation operates the Cameron LNG production/liquefaction facility located in Hackberry, Louisiana, USA, as part of its natural gas value chain.",
+        "vote": "0-3",
+        "source": "https://www.mitsubishicorp.com/us/en/mca/bg/natural-gas-group/"
+      },
+      {
+        "claim": "Japan depends on the Middle East for over 95% of its crude oil imports as of H1 2025 (UAE ~44%, Saudi Arabia ~40%), and roughly 83% of Persian Gulf LNG transits the Strait of Hormuz, illustrating the strategic value of diversified/vertically integrated supply chains.",
+        "vote": "1-2",
+        "source": "https://orfme.org/expert-speak/how-middle-east-turmoil-reverberates-through-japans-energy-system/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://oilgas-info.jogmec.go.jp/_res/projects/default_project/_page_/001/010/410/4_23_en_2025_mitsubishi.pdf",
+        "quality": "primary",
+        "angle": "broad/primary — LNG value chain timeline",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.mitsubishicorp.com/jp/en/about/project/montney-shale-gas/",
+        "quality": "primary",
+        "angle": "broad/primary — LNG value chain timeline",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2025-08-28/mitsubishi-corp-says-berkshire-hathaway-s-stake-rises-to-10-23-meutunbj",
+        "quality": "unreliable",
+        "angle": "broad/primary — LNG value chain timeline",
+        "claimCount": 0
+      },
+      {
+        "url": "https://www.cnbc.com/2025/03/17/buffett-hikes-stakes-in-five-japanese-trading-houses-to-almost-10percent-each.html",
+        "quality": "secondary",
+        "angle": "broad/primary — LNG value chain timeline",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.japantimes.co.jp/business/2025/12/27/markets/buffett-japan-trading-houses/",
+        "quality": "secondary",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 3
+      },
+      {
+        "url": "https://www.cnbc.com/2025/08/28/berkshire-raises-stake-in-japans-mitsubishi-above-10percent.html",
+        "quality": "secondary",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.cnbc.com/2020/08/30/warren-buffetts-berkshire-hathaway-buys-stakes-in-japans-five-leading-trading-companies.html",
+        "quality": "secondary",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.ainvest.com/news/berkshire-hathaway-strategic-deepening-stake-japan-mitsubishi-corp-2508/",
+        "quality": "unreliable",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 0
+      },
+      {
+        "url": "https://www.cnbc.com/2025/10/11/berkshires-japanese-stock-positions-top-30-billion.html",
+        "quality": "secondary",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.cnn.com/2023/11/01/investing/munger-interview-buffett-japan-investment-intl-hnk/index.html",
+        "quality": "unreliable",
+        "angle": "investor/Buffett rationale",
+        "claimCount": 0
+      },
+      {
+        "url": "https://www.mitsubishicorp.com/us/en/mca/bg/natural-gas-group/",
+        "quality": "primary",
+        "angle": "business model / sogo shosha economics",
+        "claimCount": 5
+      },
+      {
+        "url": "https://journal.jogmec.go.jp/content/300799935.pdf",
+        "quality": "primary",
+        "angle": "business model / sogo shosha economics",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.morningstar.com/stocks/why-warren-buffett-likes-japanese-trading-companies",
+        "quality": "unreliable",
+        "angle": "business model / sogo shosha economics",
+        "claimCount": 0
+      },
+      {
+        "url": "https://newsmagazine.poscointl.com/?p=3606",
+        "quality": "blog",
+        "angle": "Korea comparison / implications",
+        "claimCount": 5
+      },
+      {
+        "url": "https://media.skens.com/4520",
+        "quality": "unreliable",
+        "angle": "Korea comparison / implications",
+        "claimCount": 0
+      },
+      {
+        "url": "https://www.skens.com/sk/content/view.do?cate=energy&m1=lngcondition",
+        "quality": "primary",
+        "angle": "Korea comparison / implications",
+        "claimCount": 4
+      },
+      {
+        "url": "https://newsmagazine.poscointl.com/?p=8620",
+        "quality": "primary",
+        "angle": "Korea comparison / implications",
+        "claimCount": 4
+      },
+      {
+        "url": "https://hub.zum.com/invest_47/%EC%A2%85%ED%95%A9%EC%83%81%EC%82%AC%EB%8A%94-%EB%B6%80%ED%99%9C%ED%95%98%EB%8A%94%EA%B0%80-%ED%95%9C%EA%B5%AD-%EC%9D%BC%EB%B3%B8-%EC%A2%85%ED%95%A9%EC%83%81%EC%82%AC-%EB%B9%84%EA%B5%90-%EC%9B%90%EC%9E%90%EC%9E%AC-%EA%B3%A1%EB%AC%BC-%EA%B4%80%EB%A0%A8%EC%A3%BC-105454",
+        "quality": "unreliable",
+        "angle": "Korea comparison / implications",
+        "claimCount": 0
+      },
+      {
+        "url": "https://foreignpolicy.com/2026/06/02/gulf-energy-iran-oil-crisis-japan-strategy-nuclear/",
+        "quality": "secondary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      },
+      {
+        "url": "https://orfme.org/expert-speak/how-middle-east-turmoil-reverberates-through-japans-energy-system/",
+        "quality": "primary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+        "quality": "secondary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.csis.org/analysis/what-are-implications-iran-conflict-japan",
+        "quality": "primary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.washingtoninstitute.org/policy-analysis/how-iran-israel-conflict-affecting-gulf-energy-and-maritime-security",
+        "quality": "primary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      },
+      {
+        "url": "https://ieefa.org/resources/japans-diversified-lng-procurement-strategy-cannot-fully-shield-it-global-price-spikes",
+        "quality": "primary",
+        "angle": "recent geopolitics / 2025 Hormuz risk",
+        "claimCount": 5
+      }
+    ],
+    "stats": {
+      "angles": 5,
+      "sourcesFetched": 24,
+      "claimsExtracted": 83,
+      "claimsVerified": 25,
+      "confirmed": 23,
+      "killed": 2,
+      "afterSynthesis": 14,
+      "urlDupes": 1,
+      "budgetDropped": 5,
+      "agentCalls": 106
+    }
+  }
+}

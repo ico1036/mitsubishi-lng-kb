@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Obsidian — 머신별 상태(작업공간/캐시)는 제외, 공유 설정은 포함
+Mitsubishi-LNG-Vault/.obsidian/workspace.json
+Mitsubishi-LNG-Vault/.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Python
+__pycache__/
+*.pyc

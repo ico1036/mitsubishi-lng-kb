@@ -1,0 +1,34 @@
+id,label,type,category,country,description,degree
+mitsubishi-corporation,Mitsubishi Corporation,company,Integrated trading & investment company / 종합상사,Japan,Japanese integrated trading and investment company; long-running LNG value-chain builder.,14
+energy-power-solution-group,MC Energy & Power Solution Group,company,Energy business group,Japan,"Mitsubishi Corporation group overseeing LNG, natural gas, power, trading and energy transition businesses.",1
+diamond-global-energy,Diamond Global Energy / Diamond Gas International,company,LNG marketing & trading,Singapore,"Singapore-based Mitsubishi subsidiary handling LNG marketing, sales optimization and short-term trading for US/Canada LNG.",3
+mc-energies,MC Energies Corporation,company,US energy platform,United States,Mitsubishi's US energy business platform centered on upstream natural gas and energy value chain expansion.,4
+lng-canada,LNG Canada Project,company,Liquefaction / LNG export project,Canada,"Canada's first large-scale LNG project in Kitimat, BC; 14 Mtpa production capacity.",3
+diamond-lng-canada,Diamond LNG Canada Ltd.,company,Project investment / offtake vehicle,Canada,Mitsubishi subsidiary invested in LNG Canada; procures feed gas and offtakes LNG.,2
+montney-shale,Montney Shale Gas Development,other,Upstream gas resource,Canada,Upstream shale gas resource base in British Columbia feeding Mitsubishi's Canadian natural gas value chain.,1
+coastal-gaslink,Coastal GasLink Pipeline,company,Pipeline / midstream,Canada,Pipeline route connecting inland gas resources to British Columbia's west-coast LNG export terminal.,2
+cameron-lng,Cameron LNG,company,Liquefaction / tolling,United States,US LNG liquefaction project; Mitsubishi holds tolling capacity equivalent to one liquefaction train.,2
+aethon,Aethon / Haynesville Shale Gas Assets,company,Upstream shale gas,United States,Haynesville shale gas assets in Texas and Louisiana; acquisition agreed by Mitsubishi in 2026.,3
+cima-energy,CIMA Energy,company,Midstream marketing & logistics,United States,Houston-based midstream marketing/logistics platform cited by Mitsubishi as part of its North American energy platform.,1
+diamond-generating,Diamond Generating Corporation,company,Power generation / trading,United States,"Mitsubishi power business in the Americas, including power generation and trading.",1
+petronas,PETRONAS,company,National oil & gas company,Malaysia,Malaysia's national oil and gas company; long-term LNG partner of Mitsubishi.,1
+petronas-lng-complex,PETRONAS LNG Complex Bintulu,company,LNG production complex,Malaysia,"Large LNG complex in Bintulu, Sarawak; combined 29.3 MTPA capacity across ventures.",3
+mlng-dua,MLNG Dua,company,LNG joint venture,Malaysia,Malaysia LNG Dua; Mitsubishi extended 10% equity participation.,2
+mlng-tiga,MLNG Tiga,company,LNG joint venture,Malaysia,Malaysia LNG Tiga; Mitsubishi reinvested 10% equity participation.,2
+brunei-lng,Brunei LNG,company,Historic LNG project,Brunei,One of the world's longest-operating LNG plants; first shipment to Japan in 1972.,4
+shell,Shell,company,Energy major / partner,United Kingdom,Partner in Brunei LNG development after discovering offshore Brunei gas fields.,1
+brunei-government,Brunei Government,government,State partner,Brunei,Supported and invested in Brunei LNG establishment.,1
+donggi-senoro-lng,Donggi-Senoro LNG,company,LNG project / Asian-operated,Indonesia,"LNG project jointly owned by Mitsubishi, KOGAS, Pertamina and Medco; MC operator/largest stake.",5
+kogas,Korea Gas Corporation (KOGAS),company,Korean gas importer / project partner,South Korea,Korean gas corporation; partner in Donggi-Senoro LNG and key Korean LNG importer.,3
+pertamina,Pertamina,company,National oil & gas company,Indonesia,Indonesia's state-owned oil and gas company; partner in Donggi-Senoro LNG.,1
+medco,Medco Energi,company,Energy company,Indonesia,Indonesian energy company; partner in Donggi-Senoro LNG.,1
+oman-lng,Oman LNG,company,Alternative LNG supply / chokepoint-adjacent,Oman,Oman LNG became relevant to Korea as a Hormuz-risk alternative supply-chain partner.,3
+motie-korea,"Korea Ministry of Trade, Industry and Energy",government,Energy security policymaker,South Korea,Korean ministry discussing LNG/energy supply-chain cooperation with Oman.,1
+strait-hormuz,Strait of Hormuz,other,Energy chokepoint,International waters,Narrow maritime chokepoint between Iran and Oman; major route for oil and LNG.,2
+korean-manufacturing,Korean Manufacturing Base,other,Energy-intensive demand / vulnerable end-user,South Korea,"Korean manufacturing sectors exposed to LNG, oil, naphtha, helium and ammonia supply shocks.",4
+berkshire-hathaway,Berkshire Hathaway,investor,Long-term investor,United States,Warren Buffett-led investment company holding long-term stakes in Japanese trading houses.,1
+japanese-trading-houses,Five Japanese Trading Houses,other,Peer group / investment theme,Japan,"ITOCHU, Marubeni, Mitsubishi, Mitsui and Sumitomo as Berkshire's Japanese investment basket.",2
+ai-data-centers,AI / Data Center Power Demand,other,Emerging electricity demand,Global,Growing electricity demand driver cited in Mitsubishi energy strategy and LNG Canada context.,2
+midocean-energy,MidOcean Energy,company,Global LNG portfolio investment vehicle,Global,"Mitsubishi made a 2024.4 strategic investment in MidOcean Energy, adding ~6 indirect LNG projects to its equity portfolio.",1
+korea-lng,KOREA LNG,company,KOGAS Oman LNG investment vehicle,South Korea,Vehicle through which KOGAS holds a 5.0% equity stake in Oman LNG.,2
+sulawesi-lng-development,Sulawesi LNG Development,company,MC/KOGAS holding vehicle (75/25),Indonesia,75/25 Mitsubishi–KOGAS holding vehicle underlying the Donggi-Senoro LNG project.,3

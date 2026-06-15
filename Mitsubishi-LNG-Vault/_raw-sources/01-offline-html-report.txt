@@ -1,0 +1,241 @@
+ 
+
+ 미쓰비시상사 LNG 밸류체인 리포트 
+
+ Investment Research Report · Mitsubishi Corporation · LNG Value Chain
+
+ 미쓰비시상사 LNG 밸류체인: 에너지 공급망을 소유한 종합상사의 힘
+
+ 미쓰비시상사는 단순 무역상이 아니라, 가스전 지분·액화 설비·선박·트레이딩·판매처·전력 수요 를 연결해 수십 년짜리 에너지 공급망을 구축한 종합상사다. 이 리포트의 핵심은 미쓰비시 LNG 사업을 통해 “버핏이 일본 상사를 왜 장기 보유 대상으로 봤는지”, 그리고 “한국 에너지 산업이 왜 단순 LNG 수입 계약을 넘어 공급망 옵션을 가져야 하는지”를 설명하는 것이다.
+
+ 1. 한 장 결론 2. 투자 Thesis 3. 사업모델 4. 프로젝트 증거 5. 버핏 검증 6. 한국 함의 7. 관계지도 8. 출처 
+
+ 1. 한 장 결론
+
+ 미쓰비시상사의 LNG 경쟁력은 “가스를 사고파는 능력”이 아니라 가스가 생산되는 곳부터 최종 수요처까지 이어지는 공급망의 여러 선택지를 소유한 것 이다. 이 선택권은 평상시에는 안정적 현금흐름이 되고, 위기 때는 조달 협상력과 리스크 방어력이 된다.
+
+ LNG 사업 축적
+ 50년+
+ 1969년 Brunei LNG부터 시작된 장기 LNG 네트워크.
+
+ LNG Canada
+ 14Mtpa
+ 캐나다 최초 대형 LNG 프로젝트. Mtpa는 연간 백만 톤.
+
+ 미쓰비시 몫
+ 2.1Mtpa
+ LNG Canada 생산량 15%를 미쓰비시가 인수해 아시아에 공급.
+
+ Aethon 인수
+ $5.2B
+ 미국 Haynesville shale gas 자산 인수로 가스→전력→데이터센터 확장.
+
+ 핵심 판단 1
+ 미쓰비시는 LNG 물량보다 경로 선택권을 샀다. 캐나다 서해안 LNG는 중동·호르무즈 의존을 줄이는 공급망 옵션이다.
+
+ 핵심 판단 2
+ 싱가포르 트레이딩 허브가 중요하다. Diamond Gas International은 여러 프로젝트 물량을 시장 상황에 맞게 배치하는 관제탑이다.
+
+ 핵심 판단 3
+ 한국의 문제는 에너지 가격만이 아니다. 호르무즈 차질은 LNG·원유·나프타·헬륨·암모니아를 통해 제조업 원가로 전이된다.
+
+ 2. 투자 Thesis
+
+ Thesis
+ 설명
+ 확인할 것
+
+ 1. 종합상사는 상장된 자본배분 플랫폼 
+ 미쓰비시는 원자재 중개만 하는 회사가 아니라 여러 산업 자산에 장기 투자하는 복합기업이다.
+ ROE, 주주환원, 자원·비자원 포트폴리오 균형.
+
+ 2. LNG는 네트워크 사업 
+ 가스전, 파이프라인, 액화시설, 선박, 트레이딩, 수요처가 연결될수록 가치가 커진다.
+ Equity LNG 물량, 장기계약 조건, 액화 capacity, 판매처 다변화.
+
+ 3. 위기 때 옵션가치가 드러남 
+ 호르무즈 같은 병목이 흔들릴 때 여러 공급원과 항로를 가진 기업의 가치가 커진다.
+ 중동·호르무즈 노출도, 캐나다/미국/말레이시아/오만 대체 경로.
+
+ 4. AI 전력 수요가 LNG thesis를 보강 
+ 데이터센터 전력 수요가 커질수록 천연가스·LNG·전력망·저탄소 전원의 통합 설계가 중요해진다.
+ 미국 가스 자산, 발전 사업, 데이터센터 고객과의 연결.
+
+ 3. 미쓰비시상사는 어떤 회사인가
+
+ 미쓰비시상사는 일본의 대표 종합상사 다. 종합상사는 무역 중개업체로 출발했지만, 현재는 자원·에너지·금속·기계·식품·소비재·금융·전력 같은 여러 산업에 직접 투자하고 운영하는 복합기업에 가깝다. 투자자 관점에서는 상장된 사모펀드 + 글로벌 공급망 운영사 에 가깝게 보는 편이 이해하기 쉽다.
+
+ 돈을 버는 방식
+ 중개수수료만이 아니라 지분 투자 수익, 배당, 장기계약, 트레이딩, 물류, 프로젝트 운영에서 수익이 나온다.
+
+ LNG에서의 강점
+ 가스 생산부터 액화·수송·판매까지 연결된 구조를 오래 쌓았다. 단일 프로젝트보다 네트워크 자체가 강점이다.
+
+ 버크셔가 본 매력
+ 미쓰비시 하나가 아니라 일본 5대 상사의 장기 현금흐름, 다각화, 주주친화적 자본배분을 본 것으로 해석된다.
+
+ 4. LNG 밸류체인: 어디에서 가치가 생기나
+
+ 단계
+ 쉬운 설명
+ 미쓰비시 사례
+ 투자자 의미
+
+ 가스전 지분
+ 가스가 나오는 사업의 일부를 소유
+ Montney, Haynesville/Aethon, Brunei, Malaysia
+ 위기 때 시장에서 새로 사오는 것보다 협상력이 높다.
+
+ 파이프라인
+ 가스를 액화시설까지 옮기는 길
+ 캐나다 내륙 가스 → 약 670km 파이프라인 → Kitimat
+ 길목을 확보하지 못하면 물량도 의미가 약해진다.
+
+ 액화 설비
+ 기체 가스를 액체 LNG로 바꾸는 공장
+ LNG Canada, Cameron LNG, PETRONAS Bintulu, Brunei LNG
+ 해외 판매 가능한 상품으로 전환하는 병목 설비다.
+
+ 트레이딩
+ 어느 시장에 언제 팔지 결정
+ Diamond Gas International, Singapore
+ 가격·수요·공급 차질에 대응하는 운용 능력이다.
+
+ 수요처
+ 발전소, 공장, 데이터센터
+ Japan/Asia customers, power generation, data centers
+ 단순 자원 투자가 전력·산업 인프라 플랫폼으로 확장된다.
+
+ 5. 프로젝트별 근거
+
+ Brunei LNG
+ 1969년 설립, 1972년 일본에 첫 LNG 선적. 미쓰비시 LNG 체인의 역사적 출발점이다.
+ 근거: Mitsubishi Brunei LNG project.
+
+ PETRONAS / Malaysia LNG
+ 46년 파트너십. MLNG Dua와 MLNG Tiga에 각각 10% 지분 연장·재투자. Bintulu는 29.3MTPA 규모의 대형 LNG 생산 거점이다.
+ 근거: PETRONAS, 2024-09-27.
+
+ LNG Canada
+ 캐나다 최초 대형 LNG 프로젝트. 14Mtpa 생산능력, 미쓰비시 15% offtake. 캐나다 서해안에서 아시아로 보내는 공급망 옵션이다.
+ 근거: Mitsubishi Canada Natural Gas Business; 2025-07-01 release.
+
+ Cameron LNG
+ 미쓰비시는 미국 Cameron LNG에서 한 개 액화 트레인에 해당하는 설비 사용권을 보유한다. 연 400만 톤 LNG 생산권으로 설명된다.
+ 근거: Mitsubishi Energy & Power Solution Group.
+
+ Donggi-Senoro LNG
+ 미쓰비시, KOGAS, Pertamina, Medco가 공동 소유. 아시아 기업 중심으로 운영한 LNG 프로젝트이며 미쓰비시가 운영자이자 최대 지분 보유자로 설명된다.
+ 근거: Mitsubishi Energy & Power Solution Group.
+
+ Aethon / Haynesville
+ 2026년 미쓰비시는 미국 Haynesville shale gas 자산 인수에 합의했다. 약 USD 5.2bn, 2.1Bcf/d 생산, LNG 환산 약 1,500만 톤/년. 발표문은 발전·데이터센터·화학까지 연결하겠다고 밝혔다.
+ 근거: Mitsubishi, 2026-01-16.
+
+ 6. 버핏/버크셔 검증
+
+ 정확한 표현: 버핏이 “미쓰비시상사만 영원히 보유”라고 공식적으로 말한 것은 아니다. 버크셔 공식 자료의 핵심 표현은 미쓰비시를 포함한 일본 5대 종합상사 지분을 very long term , 즉 매우 장기, many decades , 즉 수십 년 단위로 보유할 것이라는 내용이다.
+
+ 항목
+ 공식 자료 기준
+ 해석
+
+ 대상
+ ITOCHU, Marubeni, Mitsubishi, Mitsui, Sumitomo
+ 미쓰비시는 5대 종합상사 바스켓의 일부다.
+
+ 2023년
+ 평균 8.5% 이상 보유, 9.9% 초과 매입 제한 의사
+ 단기 매매가 아니라 장기 전략 투자다.
+
+ 2024년
+ very long term, many decades, 10% 상한 완화
+ 수십 년 단위 포지션으로 해석 가능하다.
+
+ 7. 한국 에너지 산업에 주는 뜻
+
+ 한국의 질문은 “LNG를 어디서 더 사올까?”가 아니라 누가 한국의 에너지 공급망 옵션 포트폴리오를 설계하고 운용할 것인가 여야 한다.
+
+ 1. 조달 계약만으로는 부족
+ 장기 구매계약은 필요하지만, 지분·운송·거래·수요처까지 묶지 않으면 위기 때 선택권이 제한된다.
+
+ 2. 공급국보다 병목을 봐야 함
+ 중동 비중만 볼 것이 아니라 호르무즈, 말라카, 파나마 같은 물류 병목 노출을 따로 관리해야 한다.
+
+ 3. 한국판 에너지 상사 모델
+ KOGAS, 종합상사, 조선·해운, 발전사, 반도체·화학 수요기업이 함께 움직이는 구조가 필요하다.
+
+ 4. AI 전력 수요와 LNG 전략의 결합
+ 데이터센터 전력 수요가 커질수록 LNG, 원전, 재생에너지, 저장장치, 전력망을 통합해서 봐야 한다.
+
+ 호르무즈 리스크 숫자
+
+ EIA
+ ~21%
+ 세계 석유류 소비량의 약 21%에 해당하는 물량이 호르무즈를 통과.
+
+ LNG
+ ~1/5
+ 전 세계 LNG 교역의 약 5분의 1이 호르무즈를 통과.
+
+ KIET
+ +11.8%
+ 장기 공급 충격 시 한국 제조업 생산비 상승 가능치.
+
+ 8. 핵심 거점 지도 링크
+
+ LNG Canada / Kitimat Coastal GasLink Pipeline Haynesville Shale Cameron LNG PETRONAS LNG Bintulu Brunei LNG Oman LNG Strait of Hormuz 
+
+ 9. 뒷받침 데이터: 온톨로지 관계지도
+
+ 아래 지도는 위 thesis를 검증하기 위한 데이터 레이어다. 회사, 프로젝트, 파트너, 공급망 리스크가 어떤 관계로 연결되어 있는지 확인할 수 있다.
+
+ 30
+ 노드
+
+ 35
+ 관계
+
+ 12
+ 국가·지역
+
+ 94%
+ 검증 비중
+
+ 오프라인 단일 HTML: 지도 데이터와 렌더링 코드가 모두 이 파일 안에 들어 있어 인터넷 없이 열린다.
+
+ 10. 출처
+
+ Mitsubishi Corporation, Canada Natural Gas Business. link 
+
+ Mitsubishi Corporation, First Shipment of LNG from LNG Canada, 2025-07-01. link 
+
+ Mitsubishi Corporation, Energy & Power Solution Group. link 
+
+ Mitsubishi Corporation, Natural Gas and Petroleum Division. link 
+
+ Mitsubishi Corporation, Brunei LNG project. link 
+
+ PETRONAS, 2024-09-27. link 
+
+ Mitsubishi Corporation, Haynesville/Aethon acquisition, 2026-01-16. link 
+
+ Berkshire Hathaway, 2023 News Release. PDF 
+
+ Berkshire Hathaway, 2023 Annual Report. PDF 
+
+ Berkshire Hathaway, 2024 Annual Report. PDF 
+
+ EIA, Strait of Hormuz. link 
+
+ Reuters Graphics, Hormuz oil/LNG risk. link 
+
+ AP News, Asia energy exposure. link 
+
+ KIET 산업연구원. link 
+
+ 연합뉴스, 오만 LNG 공급망 협력. link 
+
+ 전기신문, 국내 LNG/발전 맥락. link 
+
+ 

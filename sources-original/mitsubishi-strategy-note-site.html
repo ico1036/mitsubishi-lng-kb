@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MITSUBISHI CORPORATION — The 50-Year Energy Value Chain · Strategy Note</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..600&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a0e15;
+    --ink-2:#0e131d;
+    --ink-3:#141b27;
+    --paper:#ece5d3;
+    --paper-soft:#cfc8b8;
+    --paper-dim:#8b8f97;
+    --brass:#c6a15b;
+    --brass-bright:#e6cb8d;
+    --oxblood:#b04545;
+    --sage:#76998a;
+    --slate:#8893a8;
+    --amber:#bd8c4d;
+    --grey:#6a6f79;
+    --line:rgba(236,229,211,.12);
+    --line-strong:rgba(236,229,211,.22);
+    --maxw:1240px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:"Newsreader",Georgia,serif;
+    font-optical-sizing:auto;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* paper grain + ruled atmosphere */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:
+      linear-gradient(var(--line) 1px,transparent 1px),
+      linear-gradient(90deg,var(--line) 1px,transparent 1px);
+    background-size:64px 64px;
+    -webkit-mask-image:radial-gradient(ellipse 120% 90% at 50% 0%,#000 30%,transparent 78%);
+    mask-image:radial-gradient(ellipse 120% 90% at 50% 0%,#000 30%,transparent 78%);
+    opacity:.5;
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .wrap{position:relative;z-index:1;max-width:var(--maxw);margin:0 auto;padding:0 32px}
+  /* custom desk cursor */
+  @media(hover:hover) and (pointer:fine){
+    .curs{position:fixed;top:0;left:0;z-index:9999;pointer-events:none;width:26px;height:26px;
+      margin:-13px 0 0 -13px;mix-blend-mode:difference;transition:transform .18s cubic-bezier(.2,.7,.2,1),opacity .2s}
+    .curs::before,.curs::after{content:"";position:absolute;background:#c6a15b}
+    .curs::before{left:50%;top:0;width:1px;height:100%;transform:translateX(-.5px)}
+    .curs::after{top:50%;left:0;height:1px;width:100%;transform:translateY(-.5px)}
+    .curs .ring{position:absolute;inset:5px;border:1px solid var(--brass);border-radius:50%;opacity:.5}
+    .curs.hot{transform:scale(1.7)}
+    body.deskcursor{cursor:none}
+    body.deskcursor a,body.deskcursor .li,body.deskcursor #graph{cursor:none}
+  }
+  .mono{font-family:"IBM Plex Mono",monospace}
+  .overline{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.32em;
+    text-transform:uppercase;color:var(--brass);font-weight:500;
+  }
+
+  /* ── Masthead ── */
+  header.masthead{
+    border-bottom:1px solid var(--line-strong);
+    padding:22px 0 18px;position:relative;z-index:2;
+    background:linear-gradient(180deg,rgba(10,14,21,.9),rgba(10,14,21,.6));
+    backdrop-filter:blur(6px);
+  }
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .brandmark{display:flex;align-items:center;gap:14px}
+  .diamond{width:26px;height:26px;flex:none;position:relative}
+  .diamond span{position:absolute;inset:0;background:var(--brass);
+    clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);}
+  .diamond span:nth-child(2){background:var(--ink);transform:scale(.46)}
+  .diamond span:nth-child(3){background:var(--brass-bright);clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);transform:scale(.34)}
+  .brand-txt{font-family:"Fraunces",serif;font-weight:600;font-size:17px;letter-spacing:.02em}
+  .brand-txt small{display:block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.3em;color:var(--paper-dim);font-weight:400;margin-top:2px}
+  nav.desknav{display:flex;gap:30px}
+  nav.desknav a{color:var(--paper-soft);text-decoration:none;font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;transition:color .25s}
+  nav.desknav a:hover{color:var(--brass-bright)}
+  @media(max-width:760px){nav.desknav{display:none}}
+
+  /* ── Hero ── */
+  .hero{padding:84px 0 60px;position:relative}
+  .hero .dateline{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-bottom:34px}
+  .hero .dateline .tag{border:1px solid var(--line-strong);padding:5px 11px;border-radius:2px}
+  .hero h1{
+    font-family:"Fraunces",serif;font-weight:340;
+    font-size:clamp(38px,6.6vw,86px);line-height:1.02;letter-spacing:-.015em;
+    max-width:16ch;
+  }
+  .hero h1 em{font-style:italic;color:var(--brass);font-weight:360}
+  .hero .lede{
+    margin-top:30px;max-width:62ch;font-size:clamp(17px,2vw,21px);
+    color:var(--paper-soft);line-height:1.62;font-weight:320;
+  }
+  .hero .lede b{color:var(--paper);font-weight:500}
+  .rule{height:1px;background:var(--line-strong);margin:0}
+  .reveal{opacity:0;transform:translateY(18px);animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+
+  /* ── Stat band ── */
+  .statband{border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    display:grid;grid-template-columns:repeat(5,1fr);}
+  .statband .stat{padding:26px 22px;border-left:1px solid var(--line)}
+  .statband .stat:first-child{border-left:none}
+  .statband .num{font-family:"Fraunces",serif;font-size:clamp(26px,3.2vw,40px);font-weight:430;color:var(--brass-bright);line-height:1}
+  .statband .lbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper-dim);margin-top:10px;line-height:1.4}
+  @media(max-width:860px){.statband{grid-template-columns:repeat(2,1fr)}.statband .stat:nth-child(odd){border-left:none}}
+
+  /* ── Section header ── */
+  .sec{padding:88px 0}
+  .sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:48px}
+  .sec-head .idx{font-family:"IBM Plex Mono",monospace;color:var(--brass);font-size:13px;letter-spacing:.1em}
+  .sec-head h2{font-family:"Fraunces",serif;font-weight:380;font-size:clamp(26px,3.6vw,44px);letter-spacing:-.01em}
+  .sec-head h2 em{font-style:italic;color:var(--brass)}
+
+  /* ── Theses ── */
+  .thesis{display:grid;grid-template-columns:90px 1fr;gap:0;border-top:1px solid var(--line);padding:40px 0;position:relative}
+  .thesis:last-child{border-bottom:1px solid var(--line)}
+  .thesis .tnum{font-family:"Fraunces",serif;font-size:46px;font-weight:300;color:var(--brass);line-height:.9}
+  .thesis .tnum small{display:block;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.24em;color:var(--paper-dim);margin-top:12px}
+  .thesis h3{font-family:"Fraunces",serif;font-weight:420;font-size:clamp(20px,2.5vw,27px);line-height:1.22;letter-spacing:-.01em;max-width:24ch}
+  .thesis h3 em{font-style:italic;color:var(--brass-bright)}
+  .thesis p{margin-top:16px;max-width:64ch;color:var(--paper-soft);font-size:16.5px;line-height:1.66;font-weight:320}
+  .thesis p b{color:var(--paper);font-weight:600}
+  .thesis .kicker{margin-top:18px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--oxblood);text-transform:uppercase}
+  .thesis .kicker.pos{color:var(--sage)}
+  @media(max-width:680px){.thesis{grid-template-columns:1fr;gap:16px}}
+
+  /* ── Graph / Vault ── */
+  .vaultsec{background:linear-gradient(180deg,transparent,rgba(20,27,39,.5),transparent);border-top:1px solid var(--line)}
+  .graph-shell{position:relative;border:1px solid var(--line-strong);border-radius:4px;
+    background:radial-gradient(ellipse 80% 80% at 50% 45%,rgba(20,27,39,.85),rgba(10,14,21,.4));
+    overflow:hidden}
+  .graph-shell .corner{position:absolute;width:14px;height:14px;border:1px solid var(--brass);opacity:.6;z-index:4}
+  .graph-shell .corner.tl{top:10px;left:10px;border-right:none;border-bottom:none}
+  .graph-shell .corner.tr{top:10px;right:10px;border-left:none;border-bottom:none}
+  .graph-shell .corner.bl{bottom:10px;left:10px;border-right:none;border-top:none}
+  .graph-shell .corner.br{bottom:10px;right:10px;border-left:none;border-top:none}
+  #graph{display:block;width:100%;height:620px;cursor:grab}
+  #graph:active{cursor:grabbing}
+  .graph-overlay{position:absolute;top:18px;left:18px;z-index:5;pointer-events:none}
+  .graph-overlay .ttl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.22em;color:var(--brass);text-transform:uppercase}
+  .graph-overlay .sub{font-family:"Newsreader",serif;font-size:13px;color:var(--paper-dim);margin-top:4px;max-width:30ch}
+  .legend{position:absolute;bottom:20px;left:18px;z-index:5;display:flex;flex-direction:column;gap:7px;background:rgba(10,14,21,.6);padding:13px 15px;border:1px solid var(--line);border-radius:3px;backdrop-filter:blur(3px)}
+  .legend .li{display:flex;align-items:center;gap:9px;cursor:pointer;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.04em;color:var(--paper-soft);transition:color .2s}
+  .legend .li:hover{color:var(--paper)}
+  .legend .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .legend .dot.iso{border:1.5px dashed var(--oxblood);background:transparent;width:11px;height:11px}
+  .tip{position:fixed;z-index:50;pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .14s;
+    background:var(--ink-3);border:1px solid var(--brass);border-radius:3px;padding:10px 13px;max-width:260px;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+  .tip .tk{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+  .tip .tt{font-family:"Newsreader",serif;font-size:14.5px;color:var(--paper);margin-top:3px;line-height:1.3}
+  .tip .td{font-size:12px;color:var(--paper-dim);margin-top:5px}
+  .graph-hint{margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--paper-dim);letter-spacing:.05em;display:flex;gap:22px;flex-wrap:wrap}
+  .graph-hint b{color:var(--brass)}
+
+  /* ── Findings ledger ── */
+  .ledger{border-top:1px solid var(--line)}
+  .lrow{display:grid;grid-template-columns:54px 1fr 130px 92px;gap:18px;align-items:center;
+    padding:17px 4px;border-bottom:1px solid var(--line);transition:background .2s}
+  .lrow:hover{background:rgba(198,161,91,.05)}
+  .lrow .lid{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--paper-dim)}
+  .lrow .lcl{font-family:"Newsreader",serif;font-size:16.5px;color:var(--paper);line-height:1.35}
+  .lrow .lc{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+  .lrow .lv{font-family:"IBM Plex Mono",monospace;font-size:12px;text-align:right;color:var(--sage)}
+  .lrow .lv.bad{color:var(--oxblood)}
+  @media(max-width:680px){.lrow{grid-template-columns:40px 1fr;gap:8px}.lrow .lc,.lrow .lv{display:none}}
+
+  footer{border-top:1px solid var(--line-strong);padding:54px 0 70px;margin-top:40px}
+  footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+  footer h4{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:14px}
+  footer p,footer li{color:var(--paper-dim);font-size:13.5px;line-height:1.7;list-style:none}
+  footer .disc{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-size:11.5px;color:var(--paper-dim);line-height:1.7;max-width:90ch}
+  @media(max-width:760px){footer .grid{grid-template-columns:1fr}}
+  ::selection{background:var(--brass);color:var(--ink)}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brandmark">
+      <div class="diamond"><span></span><span></span><span></span></div>
+      <div class="brand-txt">ALPHABRIDGE&nbsp;RESEARCH<small>ENERGY · COMMODITIES DESK</small></div>
+    </div>
+    <nav class="desknav">
+      <a href="#thesis">Theses</a>
+      <a href="#vault">Knowledge Graph</a>
+      <a href="#ledger">Evidence</a>
+      <a href="#method">Method</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="dateline overline reveal" style="animation-delay:.05s">
+      <span class="tag">Strategy Note № 014</span>
+      <span class="tag">Energy Value Chains</span>
+      <span class="tag mono">2026 · 06 · 07</span>
+    </div>
+    <h1 class="reveal" style="animation-delay:.12s">The 50-Year <em>Value Chain</em> Buffett Wants to Own Forever</h1>
+    <p class="lede reveal" style="animation-delay:.22s">
+      Mitsubishi Corporation spent five decades wiring together upstream gas, liquefaction, shipping, trading and downstream power into a single integrated LNG machine. Working backward from the verified record, three theses emerge — and each one <b>reframes what Korea's energy champions are actually buying</b> when they copy the <i>sogo shosha</i> playbook.
+    </p>
+  </div>
+</section>
+
+<div class="wrap"><div class="statband reveal" style="animation-delay:.3s">
+  <div class="stat"><div class="num mono">13</div><div class="lbl">Operating LNG<br>projects · Jul 2025</div></div>
+  <div class="stat"><div class="num mono">14.9</div><div class="lbl">MTPA equity<br>offtake</div></div>
+  <div class="stat"><div class="num mono">$5.2B</div><div class="lbl">Aethon upstream<br>buy · Jan 2026</div></div>
+  <div class="stat"><div class="num mono">29→11%</div><div class="lbl">Japan LNG Mid-East<br>share '13→'25</div></div>
+  <div class="stat"><div class="num mono">23/25</div><div class="lbl">Claims surviving<br>adversarial vote</div></div>
+</div></div>
+
+<!-- THESES -->
+<section class="sec" id="thesis">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">01 —</span><h2>Three <em>theses</em>, read backward from the data</h2></div>
+
+    <div class="thesis reveal">
+      <div class="tnum">Ⅰ<small>HEDGE</small></div>
+      <div>
+        <h3>The value chain is not a <em>margin engine</em> — it is a geopolitical <em>hedging instrument</em>.</h3>
+        <p>Mitsubishi bought into U.S. shale upstream — <b>Aethon, ~$5.2bn</b> — in the very month the Hormuz crisis peaked (Jan 2026). That timing reveals the real function: equity stakes and tolling rights let the house swing supply to self-sourced volumes when a chokepoint freezes. Fifty years of accumulation pays as profit in peacetime and as a <b>shield</b> in crisis.</p>
+        <div class="kicker pos">▲ Dual function · revenue in calm, armor in conflict</div>
+      </div>
+    </div>
+
+    <div class="thesis reveal">
+      <div class="tnum">Ⅱ<small>MOAT</small></div>
+      <div>
+        <h3>What Buffett would hold <em>forever</em> isn't LNG — it's the <em>cash-flow predictability</em> integration manufactures.</h3>
+        <p>The verified record shows not a single-resource bet but a portfolio flattened by upstream-to-downstream diversification — precisely the Buffett-style moat of durable, predictable cash flow. The paradox the data exposes: <b>Korea has no listed vehicle</b> — public utility or trading house — that packages this same integrated cash-flow profile.</p>
+        <div class="kicker">⚠ Evidence gap · Buffett rationale unverified — see graph</div>
+      </div>
+    </div>
+
+    <div class="thesis reveal">
+      <div class="tnum">Ⅲ<small>LIMIT</small></div>
+      <div>
+        <h3>Korea's "copy Mitsubishi" strategy only works <em>halfway</em>.</h3>
+        <p>SK E&amp;S and POSCO International's vertical integration cuts <b>volume</b>-disruption risk — but per IEEFA's core finding, it cannot stop a global <b>price</b> shock (JKM doubling, GDP −3% scenarios). "Value chain = escape from energy shocks" is closer to myth. The true lever is not securing molecules but <b>hedging price</b> through contract structure.</p>
+        <div class="kicker">⚠ Half-protection · supply security ≠ price security</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VAULT GRAPH -->
+<section class="sec vaultsec" id="vault">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">02 —</span><h2>The <em>knowledge graph</em></h2></div>
+    <div class="graph-shell">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="graph-overlay">
+        <div class="ttl">Vault · 33 nodes · 6 clusters</div>
+        <div class="sub">Cluster-attracted force layout. Verified findings orbit their thematic hub; primary sources bind them.</div>
+      </div>
+      <canvas id="graph"></canvas>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="graph-hint">
+      <span>◆ <b>HUB</b> theme&nbsp;·&nbsp;● finding&nbsp;·&nbsp;· source</span>
+      <span>Hover a node for detail · drag to pull</span>
+      <span style="color:var(--oxblood)">◇ Buffett cluster sits isolated — the visible evidence gap</span>
+    </div>
+  </div>
+</section>
+
+<!-- LEDGER -->
+<section class="sec" id="ledger">
+  <div class="wrap">
+    <div class="sec-head"><span class="idx">03 —</span><h2>Evidence <em>ledger</em></h2></div>
+    <div class="ledger" id="ledger-rows"></div>
+  </div>
+</section>
+
+<footer id="method">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <h4>Method</h4>
+        <p>Compiled via an adversarial deep-research harness: 5 search angles → 24 sources fetched → 83 falsifiable claims extracted → 25 ranked claims subjected to a 3-vote adversarial verification (2 of 3 refutations kills a claim). <b>23 survived; 2 were rejected.</b> Synthesised into 14 findings across 6 thematic clusters, stored as an Obsidian vault.</p>
+      </div>
+      <div>
+        <h4>Primary Sources</h4>
+        <ul>
+          <li>JOGMEC — Mitsubishi LNG record (2 docs)</li>
+          <li>CSIS · The Washington Institute</li>
+          <li>IEEFA — diversification limits</li>
+          <li>Mitsubishi / SK E&amp;S / POSCO Int'l</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Open Items</h4>
+        <ul>
+          <li>Buffett stake &amp; "forever" rationale — unverified</li>
+          <li>KOGAS upstream integration depth</li>
+          <li>GS Group value-chain position</li>
+          <li>Price-hedge effect on KOGAS import cost</li>
+        </ul>
+      </div>
+    </div>
+    <p class="disc">For research illustration only. Not investment advice, an offer, or a solicitation. Figures are as-of the cited source dates (Mitsubishi equity July 2025; Aethon close expected Q2 2026) and subject to change. Claims marked verified survived an automated adversarial review and are not a substitute for primary diligence. ALPHABRIDGE RESEARCH · Energy &amp; Commodities Desk.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip"><div class="tk"></div><div class="tt"></div><div class="td"></div></div>
+
+<script>
+/* ============ VAULT DATA (from the Obsidian vault) ============ */
+const CL = {
+  m1:{name:"밸류체인 구축 · Value Chain",  color:"#c6a15b"},
+  m3:{name:"종합상사 모델 · Sogo Shosha",   color:"#bd8c4d"},
+  m4:{name:"한국 함의 · Korea",             color:"#76998a"},
+  m5:{name:"지정학 · Hormuz Risk",          color:"#8893a8"},
+  m2:{name:"버핏 · Buffett (unverified)",   color:"#b04545", iso:true},
+  m6:{name:"미해결 질문 · Open Questions",   color:"#6a6f79", iso:true},
+};
+// hubs
+const NODES = [
+  {id:"m1",t:"hub",c:"m1",l:"VALUE CHAIN",d:"50년 단계적 구축 (Q1)"},
+  {id:"m3",t:"hub",c:"m3",l:"SOGO SHOSHA",d:"수직통합 수익구조 (Q3)"},
+  {id:"m4",t:"hub",c:"m4",l:"KOREA",d:"SK E&S·포스코·KOGAS (Q4)"},
+  {id:"m5",t:"hub",c:"m5",l:"HORMUZ RISK",d:"이란 전쟁 disruption (Q5)"},
+  {id:"m2",t:"hub",c:"m2",l:"BUFFETT",d:"⚠ 근거 미확보 (Q2)"},
+  {id:"m6",t:"hub",c:"m6",l:"OPEN Q",d:"supersearch 추격 후보"},
+  // findings
+  {id:"f1",t:"find",c:"m1",l:"1969 알래스카 수입대행",d:"50년 밸류체인의 출발점 · 3-0"},
+  {id:"f2",t:"find",c:"m1",l:"13 프로젝트 / 14.9 MTPA",d:"2025.7 규모 · 3-0"},
+  {id:"f3",t:"find",c:"m1",l:"상류·액화 지분",d:"브루나이25%·NWS·사할린·Cameron · 3-0"},
+  {id:"f4",t:"find",c:"m1",l:"Cameron LNG + 톨링",d:"2020.8 상업운전·4MTPA톨링 · 3-0"},
+  {id:"f5",t:"find",c:"m1",l:"LNG Canada",d:"2018 FID·2025.6 첫선적·KOGAS5% · 3-0"},
+  {id:"f6",t:"find",c:"m3",l:"Strategy 2027 · DGI",d:"통합전략+마케팅사+KOGAS · 3-0"},
+  {id:"f7",t:"find",c:"m3",l:"Aethon $5.2B 인수",d:"중동 리스크→미국 상류 피벗 · 3-0"},
+  {id:"f8",t:"find",c:"m4",l:"SK E&S 수직통합",d:"한국 민간 최초 풀 밸류체인 · 3-0"},
+  {id:"f9",t:"find",c:"m4",l:"포스코인터 알래스카LNG",d:"450억$·20년 1MTPA 검토 · 3-0"},
+  {id:"f10",t:"find",c:"m5",l:"일본 원유 호르무즈 93%",d:"수입의존85%·중동94% · 3-0"},
+  {id:"f11",t:"find",c:"m5",l:"LNG 다변화 29→11%",d:"가스는 원유보다 덜 취약 · 3-0"},
+  {id:"f12",t:"find",c:"m5",l:"호르무즈 원유35%·LNG20%",d:"chokepoint 규모 · 3-0"},
+  {id:"f13",t:"find",c:"m5",l:"Fordow 폭격→유가급등",d:"2025.6.21 Midnight Hammer · 3-0"},
+  {id:"f14",t:"find",c:"m5",l:"IEEFA: 다변화의 한계",d:"가격충격 못막음·JKM2배 · 3-0 ★"},
+  // unverified buffett leads
+  {id:"b1",t:"lead",c:"m2",l:"버크셔 지분 10.23%",d:"Bloomberg · 미검증"},
+  {id:"b2",t:"lead",c:"m2",l:"5대상사 ~10%",d:"CNBC · 미검증"},
+  // sources
+  {id:"s1",t:"src",c:"m1",l:"JOGMEC 저널",d:"primary ⭐"},
+  {id:"s2",t:"src",c:"m1",l:"JOGMEC oilgas",d:"primary ⭐"},
+  {id:"s3",t:"src",c:"m1",l:"미쓰비시 천연가스그룹",d:"primary"},
+  {id:"s4",t:"src",c:"m1",l:"미쓰비시 Montney",d:"primary"},
+  {id:"s5",t:"src",c:"m3",l:"Strategy 2027 릴리스",d:"primary"},
+  {id:"s6",t:"src",c:"m3",l:"Aethon 릴리스",d:"primary"},
+  {id:"s7",t:"src",c:"m3",l:"ORF Middle East",d:"primary"},
+  {id:"s8",t:"src",c:"m4",l:"SK E&S",d:"primary"},
+  {id:"s9",t:"src",c:"m4",l:"포스코인터 매거진",d:"primary"},
+  {id:"s10",t:"src",c:"m5",l:"CSIS",d:"primary ⭐"},
+  {id:"s11",t:"src",c:"m5",l:"Washington Institute",d:"primary ⭐"},
+  {id:"s12",t:"src",c:"m5",l:"IEEFA",d:"primary ⭐"},
+];
+const LINKS = [
+  // findings → hub
+  ["m1","f1"],["m1","f2"],["m1","f3"],["m1","f4"],["m1","f5"],
+  ["m3","f6"],["m3","f7"],["m4","f8"],["m4","f9"],
+  ["m5","f10"],["m5","f11"],["m5","f12"],["m5","f13"],["m5","f14"],
+  // cross-cluster bridges
+  ["f4","m3"],["f5","m4"],["f6","m4"],["f7","m5"],["f14","m4"],
+  ["m1","m3"],["m3","m4"],["m4","m5"],
+  // buffett isolation: only weak ties to m6 / m3
+  ["m2","b1"],["m2","b2"],["m2","m6"],["m2","m3"],
+  // sources → findings
+  ["s1","f1"],["s1","f2"],["s1","f3"],["s1","f5"],["s1","f6"],
+  ["s2","f1"],["s2","f2"],["s2","f3"],["s2","f4"],["s2","f6"],
+  ["s3","f1"],["s4","f5"],["s5","f6"],["s6","f7"],["s7","f7"],
+  ["s8","f8"],["s9","f9"],["s10","f10"],["s10","f11"],
+  ["s11","f12"],["s11","f13"],["s12","f14"],["s12","f11"],["s12","f12"],
+];
+
+/* ============ FORCE GRAPH ============ */
+const cv=document.getElementById("graph"), x=cv.getContext("2d");
+const tip=document.getElementById("tip");
+let W,H,DPR,anchors={},hot=null,drag=null,muted=null;
+const byId={}; NODES.forEach(n=>byId[n.id]=n);
+const L=LINKS.map(([a,b])=>({a:byId[a],b:byId[b]}));
+
+function rOf(n){return n.t==="hub"?15:n.t==="find"?8:n.t==="lead"?6:4.5;}
+function setupAnchors(){
+  // arrange cluster anchors; push isolated ones outward
+  const cx=W/2, cy=H/2, rx=W*0.30, ry=H*0.32;
+  const order=["m1","m3","m5","m4","m6","m2"]; // around circle
+  order.forEach((k,i)=>{
+    const a=(-Math.PI/2)+i*(2*Math.PI/order.length);
+    let kx=rx, ky=ry;
+    if(k==="m2"){kx=rx*1.42;ky=ry*1.42;}      // Buffett flung out
+    if(k==="m6"){kx=rx*1.12;ky=ry*1.12;}
+    anchors[k]={x:cx+Math.cos(a)*kx, y:cy+Math.sin(a)*ky};
+  });
+}
+function resize(){
+  DPR=Math.min(devicePixelRatio||1,2);
+  W=cv.clientWidth; H=cv.clientHeight;
+  cv.width=W*DPR; cv.height=H*DPR; x.setTransform(DPR,0,0,DPR,0,0);
+  setupAnchors();
+}
+// init positions near anchors
+function seed(){
+  NODES.forEach(n=>{
+    const a=anchors[n.c];
+    n.x=a.x+(Math.random()-.5)*60; n.y=a.y+(Math.random()-.5)*60;
+    n.vx=0; n.vy=0;
+  });
+}
+function step(){
+  // repulsion
+  for(let i=0;i<NODES.length;i++){
+    const p=NODES[i];
+    for(let j=i+1;j<NODES.length;j++){
+      const q=NODES[j];
+      let dx=p.x-q.x, dy=p.y-q.y, d2=dx*dx+dy*dy||.01;
+      const sameC=p.c===q.c;
+      const force=(sameC?620:1500)/d2;
+      const d=Math.sqrt(d2); dx/=d; dy/=d;
+      p.vx+=dx*force; p.vy+=dy*force; q.vx-=dx*force; q.vy-=dy*force;
+    }
+  }
+  // link springs
+  L.forEach(({a,b})=>{
+    let dx=b.x-a.x, dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||.01;
+    const rest=(a.t==="hub"||b.t==="hub")?70:90;
+    const f=(d-rest)*0.012; dx/=d; dy/=d;
+    a.vx+=dx*f; a.vy+=dy*f; b.vx-=dx*f; b.vy-=dy*f;
+  });
+  // cluster gravity + bounds
+  NODES.forEach(n=>{
+    const a=anchors[n.c];
+    n.vx+=(a.x-n.x)*0.012; n.vy+=(a.y-n.y)*0.012;
+    n.vx*=0.86; n.vy*=0.86;
+    if(n!==drag){ n.x+=n.vx; n.y+=n.vy; }
+    const m=26; n.x=Math.max(m,Math.min(W-m,n.x)); n.y=Math.max(m,Math.min(H-m,n.y));
+  });
+}
+function draw(){
+  x.clearRect(0,0,W,H);
+  // links
+  L.forEach(({a,b})=>{
+    const dim = muted && !(involves(a)&&involves(b)) ;
+    const hl = hot && (a===hot||b===hot);
+    x.beginPath(); x.moveTo(a.x,a.y); x.lineTo(b.x,b.y);
+    const iso=(a.c==="m2"||b.c==="m2");
+    x.strokeStyle = hl?"rgba(230,203,141,.55)":(iso?"rgba(176,69,69,.28)":"rgba(236,229,211,.10)");
+    x.lineWidth = hl?1.4:.8;
+    if(iso){x.setLineDash([4,4]);}else{x.setLineDash([]);}
+    x.globalAlpha = dim?0.18:1; x.stroke(); x.globalAlpha=1;
+  });
+  x.setLineDash([]);
+  // nodes
+  NODES.forEach(n=>{
+    const col=CL[n.c].color, r=rOf(n);
+    const dim = muted && n.c!==muted;
+    const isHot = hot===n;
+    x.globalAlpha = dim?0.22:1;
+    if(n.t==="hub"){
+      // diamond hub
+      x.save(); x.translate(n.x,n.y); x.rotate(Math.PI/4);
+      const s=r*1.25;
+      x.fillStyle=col; x.shadowColor=col; x.shadowBlur=isHot?22:12;
+      x.fillRect(-s/2,-s/2,s,s); x.shadowBlur=0;
+      x.fillStyle="rgba(10,14,21,.9)"; x.fillRect(-s/4,-s/4,s/2,s/2);
+      x.restore();
+      x.font="600 11px 'IBM Plex Mono',monospace"; x.fillStyle=isHot?"#fff":"#ece5d3";
+      x.textAlign="center"; x.fillText(n.l, n.x, n.y+r+15);
+    } else if(n.t==="lead"){
+      x.beginPath(); x.arc(n.x,n.y,r,0,7); x.strokeStyle=col; x.lineWidth=1.4; x.setLineDash([3,3]); x.stroke(); x.setLineDash([]);
+    } else {
+      x.beginPath(); x.arc(n.x,n.y,isHot?r*1.35:r,0,7);
+      x.fillStyle=col; x.shadowColor=col; x.shadowBlur=isHot?18:(n.t==="find"?6:0);
+      x.fillStyle = n.t==="src" ? "rgba(236,229,211,.5)" : col;
+      x.fill(); x.shadowBlur=0;
+      if(n.t==="find"){x.lineWidth=1.2;x.strokeStyle="rgba(10,14,21,.6)";x.stroke();}
+    }
+    x.globalAlpha=1;
+  });
+}
+function involves(n){ return muted && n.c===muted; }
+let frames=0;
+function loop(){ if(frames<480||drag){step();frames++;} draw(); requestAnimationFrame(loop); }
+
+function pick(mx,my){
+  let best=null,bd=1e9;
+  NODES.forEach(n=>{const d=(n.x-mx)**2+(n.y-my)**2; const rr=(rOf(n)+7)**2; if(d<rr&&d<bd){bd=d;best=n;}});
+  return best;
+}
+function rel(e){const r=cv.getBoundingClientRect();const t=e.touches?e.touches[0]:e;return{mx:t.clientX-r.left,my:t.clientY-r.top,cx:t.clientX,cy:t.clientY};}
+cv.addEventListener("mousemove",e=>{
+  const {mx,my,cx,cy}=rel(e);
+  if(drag){drag.x=mx;drag.y=my;drag.vx=0;drag.vy=0;return;}
+  const n=pick(mx,my); hot=n;
+  if(n){
+    tip.style.opacity=1; tip.style.left=Math.min(cx+16,innerWidth-280)+"px"; tip.style.top=(cy+16)+"px";
+    tip.querySelector(".tk").textContent = n.t==="hub"?"CLUSTER HUB":n.t==="find"?"VERIFIED FINDING":n.t==="lead"?"UNVERIFIED LEAD":"PRIMARY SOURCE";
+    tip.querySelector(".tt").textContent = n.l;
+    tip.querySelector(".td").textContent = n.d+"  ·  "+CL[n.c].name;
+    cv.style.cursor="pointer";
+  } else { tip.style.opacity=0; cv.style.cursor="grab"; }
+});
+cv.addEventListener("mousedown",e=>{const {mx,my}=rel(e);const n=pick(mx,my);if(n){drag=n;}});
+addEventListener("mouseup",()=>{drag=null;});
+cv.addEventListener("mouseleave",()=>{tip.style.opacity=0;hot=null;});
+
+/* legend builds + cluster mute toggle */
+const lg=document.getElementById("legend");
+Object.entries(CL).forEach(([k,v])=>{
+  const li=document.createElement("div"); li.className="li";
+  li.innerHTML=`<span class="dot${v.iso?' iso':''}" style="background:${v.iso?'transparent':v.color}"></span>${v.name}`;
+  li.onclick=()=>{ muted = muted===k?null:k; frames=0; };
+  lg.appendChild(li);
+});
+
+/* ledger rows */
+const LED=[
+  ["F-01","1969 알래스카 LNG 수입대행 — 밸류체인의 출발점","Value Chain","3-0"],
+  ["F-02","13개 프로젝트 / 14.9 MTPA (2025.7), 2030s 18 MTPA 목표","Value Chain","3-0"],
+  ["F-03","상류·액화 지분: 브루나이25%·NWS16.67%·사할린10%·Cameron","Value Chain","3-0"],
+  ["F-04","Cameron LNG 2020.8 상업운전 + 4 MTPA 톨링","Sogo Shosha","3-0"],
+  ["F-05","LNG Canada 2018 FID · 2025.6 첫 선적 · KOGAS 5%","Korea","3-0"],
+  ["F-06","Corporate Strategy 2027 · Diamond Gas Int'l · KOGAS","Sogo Shosha","3-0"],
+  ["F-07","Aethon $5.2B 인수 — 중동 리스크 대응 미국 상류 피벗","Sogo Shosha","3-0"],
+  ["F-08","SK E&S — 한국 민간 최초 수직통합 LNG 밸류체인","Korea","3-0"],
+  ["F-09","포스코인터 — 알래스카 LNG $45B 참여 추진","Korea","3-0"],
+  ["F-10","일본 수입의존 85%+ · 원유 중동 94% · 호르무즈 93%","Hormuz","3-0"],
+  ["F-11","일본 LNG 중동 비중 29%(2013)→11%(2025)","Hormuz","3-0"],
+  ["F-12","호르무즈 = 글로벌 원유 ~35% / LNG ~20% chokepoint","Hormuz","3-0"],
+  ["F-13","2025.6.21 Fordow 폭격(Midnight Hammer)→유가 5개월 최고","Hormuz","3-0"],
+  ["F-14","IEEFA: 다변화·수직통합도 가격충격은 못 막음 (JKM 2배)","Hormuz","3-0"],
+  ["✕-01","미쓰비시가 Cameron 시설을 '운영' — REJECTED","—","0-3"],
+  ["✕-02","일본 원유 95%+ / 페르시아만 LNG 83% 호르무즈 — SPLIT","—","1-2"],
+];
+const colMap={"Value Chain":"#c6a15b","Sogo Shosha":"#bd8c4d","Korea":"#76998a","Hormuz":"#8893a8","—":"#6a6f79"};
+const lr=document.getElementById("ledger-rows");
+LED.forEach(([id,cl,c,v])=>{
+  const bad=v!=="3-0";
+  const row=document.createElement("div"); row.className="lrow";
+  row.innerHTML=`<div class="lid">${id}</div><div class="lcl">${cl}</div>
+    <div class="lc" style="color:${colMap[c]}">${c}</div>
+    <div class="lv${bad?' bad':''}">${v}</div>`;
+  lr.appendChild(row);
+});
+
+/* reveal on scroll */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.style.animationPlayState="running";io.unobserve(e.target);}}),{threshold:.15});
+document.querySelectorAll(".thesis.reveal").forEach(el=>{el.style.animationPlayState="paused";io.observe(el);});
+
+resize(); seed(); loop();
+addEventListener("resize",()=>{resize();seed();frames=0;});
+</script>
+</body>
+</html>

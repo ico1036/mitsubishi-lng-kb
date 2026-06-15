@@ -1,0 +1,103 @@
+ 
+
+ MITSUBISHI CORPORATION — The 50-Year Energy Value Chain · Strategy Note 
+
+ ALPHABRIDGE RESEARCH ENERGY · COMMODITIES DESK 
+
+ Theses 
+ Knowledge Graph 
+ Evidence 
+ Method 
+
+ Strategy Note № 014 
+ Energy Value Chains 
+ 2026 · 06 · 07 
+
+ The 50-Year Value Chain Buffett Wants to Own Forever
+
+ Mitsubishi Corporation spent five decades wiring together upstream gas, liquefaction, shipping, trading and downstream power into a single integrated LNG machine. Working backward from the verified record, three theses emerge — and each one reframes what Korea's energy champions are actually buying when they copy the sogo shosha playbook.
+
+ 13
+ Operating LNG
+projects · Jul 2025
+
+ 14.9
+ MTPA equity
+offtake
+
+ $5.2B
+ Aethon upstream
+buy · Jan 2026
+
+ 29→11%
+ Japan LNG Mid-East
+share '13→'25
+
+ 23/25
+ Claims surviving
+adversarial vote
+
+ 01 — Three theses , read backward from the data
+
+ Ⅰ HEDGE 
+
+ The value chain is not a margin engine — it is a geopolitical hedging instrument .
+
+ Mitsubishi bought into U.S. shale upstream — Aethon, ~$5.2bn — in the very month the Hormuz crisis peaked (Jan 2026). That timing reveals the real function: equity stakes and tolling rights let the house swing supply to self-sourced volumes when a chokepoint freezes. Fifty years of accumulation pays as profit in peacetime and as a shield in crisis.
+
+ ▲ Dual function · revenue in calm, armor in conflict
+
+ Ⅱ MOAT 
+
+ What Buffett would hold forever isn't LNG — it's the cash-flow predictability integration manufactures.
+
+ The verified record shows not a single-resource bet but a portfolio flattened by upstream-to-downstream diversification — precisely the Buffett-style moat of durable, predictable cash flow. The paradox the data exposes: Korea has no listed vehicle — public utility or trading house — that packages this same integrated cash-flow profile.
+
+ ⚠ Evidence gap · Buffett rationale unverified — see graph
+
+ Ⅲ LIMIT 
+
+ Korea's "copy Mitsubishi" strategy only works halfway .
+
+ SK E&S and POSCO International's vertical integration cuts volume -disruption risk — but per IEEFA's core finding, it cannot stop a global price shock (JKM doubling, GDP −3% scenarios). "Value chain = escape from energy shocks" is closer to myth. The true lever is not securing molecules but hedging price through contract structure.
+
+ ⚠ Half-protection · supply security ≠ price security
+
+ 02 — The knowledge graph 
+
+ Vault · 33 nodes · 6 clusters
+
+ Cluster-attracted force layout. Verified findings orbit their thematic hub; primary sources bind them.
+
+ ◆ HUB theme · ● finding · · source 
+ Hover a node for detail · drag to pull 
+ ◇ Buffett cluster sits isolated — the visible evidence gap 
+
+ 03 — Evidence ledger 
+
+ Method
+
+ Compiled via an adversarial deep-research harness: 5 search angles → 24 sources fetched → 83 falsifiable claims extracted → 25 ranked claims subjected to a 3-vote adversarial verification (2 of 3 refutations kills a claim). 23 survived; 2 were rejected. Synthesised into 14 findings across 6 thematic clusters, stored as an Obsidian vault.
+
+ Primary Sources
+
+ JOGMEC — Mitsubishi LNG record (2 docs)
+
+ CSIS · The Washington Institute
+
+ IEEFA — diversification limits
+
+ Mitsubishi / SK E&S / POSCO Int'l
+
+ Open Items
+
+ Buffett stake & "forever" rationale — unverified
+
+ KOGAS upstream integration depth
+
+ GS Group value-chain position
+
+ Price-hedge effect on KOGAS import cost
+
+ For research illustration only. Not investment advice, an offer, or a solicitation. Figures are as-of the cited source dates (Mitsubishi equity July 2025; Aethon close expected Q2 2026) and subject to change. Claims marked verified survived an automated adversarial review and are not a substitute for primary diligence. ALPHABRIDGE RESEARCH · Energy & Commodities Desk.
+

@@ -1,0 +1,54 @@
+metric,value,unit,context,source,confidence
+Aethon 인수 대금,5.2,B USD,헤인스빌 셰일가스 생산사 Aethon Energy 인수(2026.01),미쓰비시 릴리스/ORF,high
+Aethon 인수채무 별도,2.33,B USD,부채 인수 별도,미쓰비시 릴리스,high
+Aethon 생산량,2.1,Bcf/d,헤인스빌 가스 생산,미쓰비시/Yahoo/OilPrice/WorldOil,high
+Aethon LNG 환산,15,Mtpa(approx),"2.1 Bcf/d ≈ 연 1,500만톤",HTML 리포트,medium
+Aethon 종료 예정,2026 Q2,period,2026.4-6월 종료 예정,미쓰비시 릴리스,high
+LNG Canada 생산능력,14,Mtpa,캐나다 최초 대형 LNG,미쓰비시/HTML,high
+LNG Canada 미쓰비시 offtake,15,%,= 2.1 Mtpa 아시아 공급,HTML 리포트,high
+LNG Canada 투자잔액,4098,억엔,FY2025,AFR2025,high
+LNG Canada 대출잔액,2455,억엔,FY2025,AFR2025,high
+Coastal GasLink 파이프라인,670,km(approx),캐나다 내륙 가스→Kitimat,HTML 리포트,medium
+LNG Canada FID,2018.10,date,최종투자결정,deep-research,high
+LNG Canada 첫 선적,2025.06,date,첫 카고,deep-research,high
+Cameron LNG 규모,12,Mtpa / 3트레인,루이지애나,JOGMEC,high
+Cameron 미쓰비시 톨링,4,Mtpa,톨링계약 2019-2039,JOGMEC,high
+Bintulu(말레이) 규모,29.3,Mtpa,사라왁 대형 LNG 거점,PETRONAS 2024-09-27,medium
+MLNG Dua 지분,10,%,미쓰비시 지분 연장,PETRONAS,medium
+MLNG Tiga 지분,10,%,미쓰비시 재투자,PETRONAS,medium
+PETRONAS 파트너십,46,년,장기 LNG 파트너십,PETRONAS,medium
+Brunei LNG 설립,1969,year,1972 일본 첫 선적,deep-research/HTML,high
+Brunei LNG 미쓰비시 지분,25,%,상류·액화 지분,deep-research,high
+North West Shelf 지분,16.67,%,호주 NWS,site(derivative)·확인필요,low
+사할린 지분,10,%,사할린,site(derivative)·확인필요,low
+가동 프로젝트 수,13,개,2025.7 기준,deep-research,high
+가동 프로젝트 규모,14.9,Mtpa,2025.7 기준,deep-research,high
+2030s 생산 목표,18,Mtpa,2030년대 목표,site(derivative)·확인필요,low
+버크셔 미쓰비시 지분,10.23,%,2025.08 기준,Bloomberg(unreliable)/CNBC,medium
+버크셔 5대상사 2023 보유,8.5,%+,"평균, 9.9% 초과매입 제한",Berkshire 2023 자료,medium
+버크셔 상한 완화,10,%,"2024, very long term/many decades",Berkshire 2024 AR,medium
+버크셔 일본 포지션,30,B USD+,2025.10,CNBC,medium
+버크셔 최초 매입,2020.08,date,일본 5대 상사 진입,CNBC,medium
+호르무즈 원유 통과(vault),35,%(approx),글로벌 해상 원유,Reuters/CSIS,high
+호르무즈 LNG 통과(vault),20,%(approx),글로벌 LNG,Reuters/CSIS,high
+호르무즈 석유 통과(EIA),21,%(approx),세계 석유류 소비 — vault 35%와 상이,EIA,medium
+호르무즈 LNG 통과(EIA),20,%(~1/5),전세계 LNG 교역,EIA,medium
+일본 에너지 수입의존,85,%+,,CSIS,high
+일본 원유 중동 의존,94,%,,CSIS,high
+일본 원유 호르무즈 통과,93,%,,CSIS,high
+일본 LNG 중동비중(2013),29,%,다변화 시작점,CSIS,high
+일본 LNG 중동비중(2025),11,%,다변화 결과,CSIS,high
+KIET 한국 제조원가 상승,11.8,%,장기 공급충격 시,KIET 산업연구원,medium
+IEEFA JKM 영향,2,배,가격충격 시 JKM 2배,IEEFA,high
+석유공사 비축 물량,200,만배럴,울산 비축기지 산유국 A사 물량,발표포인트·1차확인필요,low
+석유공사 유출 물량,90,만배럴,2026.03 우선매매권 미행사 유출,발표포인트·1차확인필요,low
+포스코인터 알래스카LNG,45,B USD,20년 1Mtpa 검토,포스코인터 매거진,high
+온톨로지 노드,30,개,관계지도,HTML ontology,high
+온톨로지 관계,35,개,관계지도,HTML ontology,high
+온톨로지 국가,12,개,,HTML ontology,high
+온톨로지 검증비중,94,%,,HTML ontology,high
+deep-research 소스,24,개,fetch / 12개만 노트화,deep-research stats,high
+deep-research 검증 발견,14,개,83클레임→25검증→14발견,deep-research stats,high
+KOGAS Oman LNG 지분,5.0,%,KOREA LNG 통한 참여,JOGMEC/미쓰비시 IR 20250403001,medium
+Sulawesi LNG Dev 지분(MC/KOGAS),75/25,% split,Donggi-Senoro 지주회사(적대검증 미실시),JOGMEC/미쓰비시 IR,medium
+MidOcean Energy 간접 프로젝트,6,개(approx),2024.4 전략투자로 추가,JOGMEC,high
