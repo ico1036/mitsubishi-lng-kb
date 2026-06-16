@@ -40,3 +40,8 @@ korea-lng,oman-lng,investment,KOREA LNG holds a 5.0% equity stake in Oman LNG.,,
 mitsubishi-corporation,sulawesi-lng-development,investment,Mitsubishi holds 75% of the Sulawesi LNG Development holding vehicle.,,medium,https://journal.jogmec.go.jp/content/300799935.pdf
 kogas,sulawesi-lng-development,investment,KOGAS holds 25% of the Sulawesi LNG Development holding vehicle.,,medium,https://journal.jogmec.go.jp/content/300799935.pdf
 sulawesi-lng-development,donggi-senoro-lng,investment,Sulawesi LNG Development (MC 75 / KOGAS 25) is the holding vehicle for Donggi-Senoro LNG.,,medium,https://journal.jogmec.go.jp/content/300799935.pdf
+lng-oversupply-2026,kogas,opportunity,"2026 record oversupply opens a rare buyer's window for large buyers like Korea/KOGAS; capture = window × operating capability.",2026,medium,file://reports/mitsubishi_산스_발표_준비기승전결.pdf
+lng-oversupply-2026,korean-manufacturing,opportunity,"Oversupply window could lower input-energy cost for Korean manufacturing if Korea can operate the window.",2026,low,file://reports/mitsubishi_산스_발표_준비기승전결.pdf
+kogas,kogas-receivables,structural-condition,"As a domestic price-taker KOGAS accumulates under-recovery receivables (~14조, recovery ~80%); 15-year recurring loop.",2026,medium,file://sources-original/미쓰비시상사-Equity-Research.html
+kogas-receivables,korean-manufacturing,impact,"Deferred under-recovery is a future cost ultimately passed through to Korean end-users and manufacturing.",2026,low,file://reports/mitsubishi_산스_발표_준비기승전결.pdf
+mitsubishi-corporation,kogas,contrast,"Mitsubishi participates in price formation (Diamond Gas trading desk) while KOGAS transmits price as a domestic price-taker — value-chain stage contrast.",2026,medium,file://reports/lng-compare-winner.pdf

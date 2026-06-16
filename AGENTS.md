@@ -9,7 +9,7 @@
 ## 1. 이게 뭔가
 워런 버핏이 장기 보유하는 일본 종합상사 **미쓰비시상사(8058.T)**가 50년에 걸쳐 구축한
 **LNG 밸류체인**(상류 가스전 지분→액화→수송→트레이딩→발전/데이터센터)과 그 **한국 에너지산업 함의**를
-정리한 리서치 지식베이스다. 출처: deep-research(106 에이전트, 24소스→14검증발견) + 미쓰비시 IR/AFR 재무 + 자체 종합 리포트 2종.
+정리한 리서치 지식베이스다. 출처: deep-research(106 에이전트, 24소스→14검증발견) + 미쓰비시 IR/AFR 재무 + 자체 종합 리포트 3종(Equity Research 포함) + 발표자료 3종.
 
 **핵심 메시지:** 미쓰비시는 LNG *물량*이 아니라 *경로 선택권(option value)*을 샀고, 위기 때 그 가치가 드러난다.
 한국의 질문은 "어디서 더 살까"가 아니라 "가진 것을 누가 어떻게 운용할까"다.
@@ -34,11 +34,11 @@ mitsubishi-lng-kb/
 │  ├─ _raw-sources/                  ← 원본 추출 텍스트 (전문검색용)
 │  └─ _raw-deep-research-result.json ← deep-research 원본 결과
 ├─ .claude/skills/mitsubishi-data/   ← 조회 도구 (query.py, 의존성 없음)
-├─ sources-original/                 ← 빌드 원본 (재무 xlsx + 빌드에 쓴 리포트 HTML 2종) — 노트가 provenance로 인용
-└─ reports/                          ← 최종 산출물·발표자료 (Equity Research HTML, 발표/비교 PDF) — 사람이 읽기/발표용
+├─ sources-original/                 ← 빌드 원본 (재무 xlsx + 자체 리포트 HTML 3종, Equity Research 포함) — 노트가 provenance로 인용
+└─ reports/                          ← 최종 산출물·발표자료 (발표/비교 PDF 3종 + reports/README.md) — 사람이 읽기/발표용
 ```
-> 📄 **`reports/`는 읽기·발표용 산출물**이다. 사용자가 "리포트/발표자료 보여줘"라고 하면 여기를 안내하라.
-> 단, 사실의 1차 출처는 `S/` 노트와 `sources-original/`이다 — **reports/의 PDF·HTML을 출처로 인용하지 마라.**
+> 📄 **`reports/`는 읽기·발표용 산출물**이다. 사용자가 "리포트/발표자료 보여줘"라고 하면 여기를 안내하라(사람용 가이드 = `reports/README.md`).
+> 단, 사실의 1차 출처는 `S/` 노트와 `sources-original/`이다 — **reports/의 PDF를 출처로 인용하지 마라.**
 
 ## 4. 질문 → 어디를 볼까 (결정표)
 | 사용자 질문 유형 | 우선 행동 |
@@ -74,6 +74,7 @@ python3 .claude/skills/mitsubishi-data/query.py list                 # 데이터
 5. **재무 FY 표기 주의:** 연결순이익_추이는 일본 FY(FY2022=Mar2023 종료), EE세그먼트 CSV 컬럼은 회계연도 *종료월*(FYE Mar2023) 기준. FY2022 순이익 권위값 = **11,806억엔**.
 6. **동의어:** 버핏↔버크셔, Aethon↔헤인스빌, DGI↔Diamond Gas International, 소고쇼샤↔종합상사. 검색이 0건이면 동의어로 재시도.
 7. **투자 자문 아님.** 리서치 정리물이다. 매수/매도 권유로 답하지 마라.
+8. **밸류에이션·시장수치는 자체 추정/시점 의존이다.** DCF 적정가 ≈¥3,101·고평가 판단([[F-밸류에이션-DCF-고평가-진입신호]])은 자체 DCF·가정 의존으로 시장 합의가 아니다. KOGAS 미수금 14조·2026 공급과잉(+300bcm·<$10·카타르 75%)은 2026.06 시점 의존이며 일부 1차 미확인 — 단정하지 말고 출처·시점을 밝혀라.
 
 ## 8. 예시 — 비개발자가 Claude에게 물었을 때 (네가 이렇게 한다)
 - **"미쓰비시 순이익 언제가 제일 높았어?"** → `query.py finance` 실행 → "FY2022(Mar2023) 11,806억엔 역대 최고. COVID 저점 FY2020 1,725억엔에서 3년 만에 6.8배." (도구 안 되면 `_data/financials_net_income.csv` 읽기)

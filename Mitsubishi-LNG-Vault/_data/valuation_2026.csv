@@ -1,0 +1,9 @@
+metric,value,unit,context,source,confidence
+현재가,4595,JPY,8058.T 2026.06.16 종가,Equity Research 2026.06.16,medium
+P/B,1.69,배,2020년 0.60배 대비 멀티플 약 2.8배 재평가,Equity Research 2026.06.16,medium
+PER(후행),22.5,배,일본 5대 상사 중 고멀티플,Equity Research 2026.06.16,medium
+ROE,8.5,%,5대 상사 중 최저 수준인데 주가는 최고,Equity Research 2026.06.16,medium
+DCF 적정가,3101,JPY,자체 DCF — 현재가 대비 고평가,Equity Research 2026.06.16,medium
+진입신호 P/B,1.2,배이하,P/B 1.2배 이하 또는 자원 사이클 저점 시 매수,Equity Research 2026.06.16,medium
+Aethon 자산비중,44,%,Aethon $5.2B = LNG/셰일 관련 자산의 44%,Equity Research 2026.06.16,medium
+순이익 정점대비,-32,%,FY2022 정점 11806 대비 FY2025 8004억엔,AFR/Flash 도출,high
