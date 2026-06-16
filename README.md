@@ -33,7 +33,8 @@ Claude가 알아서 자료를 읽고/계산해서 답합니다.
 - `AGENTS.md` — AI 에이전트용 사용 설명서 (사람이 안 읽어도 됨).
 - `Mitsubishi-LNG-Vault/` — 지식베이스 본체. `00-INDEX.md`가 목차입니다.
   - `S/` 출처 · `F/` 검증된 발견 · `MOC/` 주제별 묶음 · `_data/` 숫자 데이터(CSV) · `ONTOLOGY-관계지도.md` 관계도.
-- `sources-original/` — 원본 파일(엑셀·리포트 HTML).
+- `sources-original/` — 빌드 원본(재무 엑셀 + 리포트 HTML 2종). 지식베이스를 만들 때 쓴 원자료.
+- `reports/` — 최종 산출물·발표자료(Equity Research HTML, 발표/비교 PDF). 사람이 읽거나 발표할 때 보는 결과물.
 - `.claude/skills/mitsubishi-data/` — 데이터 조회 도구(자동 사용됨).
 
 ## ⚠️ 알아둘 점

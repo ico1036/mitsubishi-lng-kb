@@ -34,8 +34,11 @@ mitsubishi-lng-kb/
 │  ├─ _raw-sources/                  ← 원본 추출 텍스트 (전문검색용)
 │  └─ _raw-deep-research-result.json ← deep-research 원본 결과
 ├─ .claude/skills/mitsubishi-data/   ← 조회 도구 (query.py, 의존성 없음)
-└─ sources-original/                 ← 사용자가 준 원본 파일 (xlsx, HTML 2종)
+├─ sources-original/                 ← 빌드 원본 (재무 xlsx + 빌드에 쓴 리포트 HTML 2종) — 노트가 provenance로 인용
+└─ reports/                          ← 최종 산출물·발표자료 (Equity Research HTML, 발표/비교 PDF) — 사람이 읽기/발표용
 ```
+> 📄 **`reports/`는 읽기·발표용 산출물**이다. 사용자가 "리포트/발표자료 보여줘"라고 하면 여기를 안내하라.
+> 단, 사실의 1차 출처는 `S/` 노트와 `sources-original/`이다 — **reports/의 PDF·HTML을 출처로 인용하지 마라.**
 
 ## 4. 질문 → 어디를 볼까 (결정표)
 | 사용자 질문 유형 | 우선 행동 |
